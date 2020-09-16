@@ -1,0 +1,444 @@
+[2020-09-15 13:33:59,729 INFO root] Taurus CLI Tool v1.14.2
+[2020-09-15 13:33:59,729 DEBUG root] Command-line options: {'log': '/var/folders/f3/2pjt5fcn7kq8v3zs82nmcc9r0000gp/T/bzt_7nkx7ocb.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2020-09-15 13:33:59,729 DEBUG root] Python: CPython 3.7.9
+[2020-09-15 13:33:59,729 DEBUG root] OS: uname_result(system='Darwin', node='admins-MBP', release='19.6.0', version='Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 2020; root:xnu-6153.141.1~1/RELEASE_X86_64', machine='x86_64', processor='i386')
+[2020-09-15 13:33:59,730 INFO root] Starting with configs: ['test.yml']
+[2020-09-15 13:33:59,730 DEBUG root] Using personal config: /Users/theodorespecht/.bzt-rc
+[2020-09-15 13:33:59,730 INFO Engine] Configuring...
+[2020-09-15 13:33:59,768 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml']
+[2020-09-15 13:33:59,768 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml']
+[2020-09-15 13:33:59,769 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml as YAML
+[2020-09-15 13:33:59,790 DEBUG Engine] User configs list: ['/Users/theodorespecht/.bzt-rc', 'test.yml']
+[2020-09-15 13:33:59,790 DEBUG Engine.Configuration] Configs: ['/Users/theodorespecht/.bzt-rc', 'test.yml']
+[2020-09-15 13:33:59,791 DEBUG Engine.Configuration] Reading /Users/theodorespecht/.bzt-rc as YAML
+[2020-09-15 13:33:59,796 DEBUG Engine.Configuration] Reading test.yml as YAML
+[2020-09-15 13:33:59,798 DEBUG Engine.Configuration] Configs: ['/Users/theodorespecht/.bzt-rc', 'test.yml']
+[2020-09-15 13:33:59,799 DEBUG Engine.Configuration] Reading /Users/theodorespecht/.bzt-rc as YAML
+[2020-09-15 13:33:59,803 DEBUG Engine.Configuration] Reading test.yml as YAML
+[2020-09-15 13:33:59,807 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.14.2&installID=macos-acde48001122
+[2020-09-15 13:33:59,807 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.14.2&installID=macos-acde48001122
+[2020-09-15 13:33:59,807 INFO Engine] Artifacts dir: /Users/theodorespecht/kajabi-jmeter/artifacts
+[2020-09-15 13:33:59,808 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/effective
+[2020-09-15 13:33:59,810 DEBUG Engine.Configuration] Dumping YAML config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.yml
+[2020-09-15 13:33:59,831 DEBUG Engine.Configuration] Dumping JSON config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.json
+[2020-09-15 13:33:59,832 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/merged-8.yml
+[2020-09-15 13:33:59,832 DEBUG Engine.Configuration] Dumping YAML config into /Users/theodorespecht/kajabi-jmeter/artifacts/merged-8.yml
+[2020-09-15 13:33:59,834 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/merged-8.json
+[2020-09-15 13:33:59,834 DEBUG Engine.Configuration] Dumping JSON config into /Users/theodorespecht/kajabi-jmeter/artifacts/merged-8.json
+[2020-09-15 13:33:59,835 DEBUG Engine] Add existing artifact (move=False): test.yml
+[2020-09-15 13:33:59,835 DEBUG Engine] Copying test.yml to /Users/theodorespecht/kajabi-jmeter/artifacts/test.yml
+[2020-09-15 13:33:59,837 DEBUG root] Closing log handler: /var/folders/f3/2pjt5fcn7kq8v3zs82nmcc9r0000gp/T/bzt_7nkx7ocb.log
+[2020-09-15 13:33:59,840 DEBUG root] Switched writing logs to /Users/theodorespecht/kajabi-jmeter/artifacts/bzt.log
+[2020-09-15 13:33:59,840 DEBUG root] Linting config
+[2020-09-15 13:33:59,842 INFO Engine] Preparing...
+[2020-09-15 13:33:59,843 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2020-09-15 13:33:59,843 DEBUG root] Importing module: bzt.modules.aggregator
+[2020-09-15 13:34:00,013 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/aggregator.py'>
+[2020-09-15 13:34:00,013 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2020-09-15 13:34:00,013 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2020-09-15 13:34:00,013 DEBUG root] Importing module: bzt.modules.monitoring
+[2020-09-15 13:34:00,014 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/monitoring.py'>
+[2020-09-15 13:34:00,015 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2020-09-15 13:34:00,015 DEBUG root] Importing module: bzt.modules.provisioning
+[2020-09-15 13:34:00,015 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/provisioning.py'>
+[2020-09-15 13:34:00,015 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}, 'path': '/usr/local/bin/jmeter'}
+[2020-09-15 13:34:00,015 DEBUG root] Importing module: bzt.modules.jmeter
+[2020-09-15 13:34:00,025 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/jmeter.py'>
+[2020-09-15 13:34:00,025 DEBUG Engine.local] Preparing executor: jmeter/4522193040
+[2020-09-15 13:34:00,025 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/jmeter-2.log
+[2020-09-15 13:34:00,025 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2020-09-15 13:34:00,026 DEBUG Engine.jmeter] Port 4445 is busy
+[2020-09-15 13:34:00,026 DEBUG Engine.jmeter] Port 4445 is busy, trying next one
+[2020-09-15 13:34:00,027 DEBUG Engine.jmeter] Checking if port 4446 is free
+[2020-09-15 13:34:00,027 DEBUG Engine.jmeter] Port 4446 is free
+[2020-09-15 13:34:00,027 DEBUG Engine.jmeter] Using port 4446 for management
+[2020-09-15 13:34:00,028 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4446, 'jmeterengine.nongui.maxport': 4446, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': '/Users/theodorespecht/kajabi-jmeter/artifacts:/Users/theodorespecht/kajabi-jmeter/test-cases'}
+[2020-09-15 13:34:00,028 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/jmeter-bzt-6.properties
+[2020-09-15 13:34:00,028 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2020-09-15 13:34:00,028 DEBUG root] Executing shell: ['java', '-version'] at .
+[2020-09-15 13:34:00,039 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2020-09-15 13:34:00,121 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "14.0.2" 2020-07-14
+OpenJDK Runtime Environment (build 14.0.2+12-46)
+OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
+
+[2020-09-15 13:34:00,121 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2020-09-15 13:34:00,121 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2020-09-15 13:34:00,122 DEBUG root] Executing shell: ['/usr/local/bin/jmeter', '-j', '/var/folders/f3/2pjt5fcn7kq8v3zs82nmcc9r0000gp/T/jmeteresc71agulog', '--version'] at .
+[2020-09-15 13:34:01,182 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.3
+
+Copyright (c) 1999-2020 The Apache Software Foundation
+
+ / WARNING: package sun.awt.X11 not in java.desktop
+
+[2020-09-15 13:34:01,185 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/kpi-2.jtl
+[2020-09-15 13:34:01,186 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/error-2.jtl
+[2020-09-15 13:34:01,187 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2020-09-15 13:34:01,187 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=100, throughput=None, ramp_up=60.0, hold=300.0, iterations=0, duration=360.0, steps=None)
+[2020-09-15 13:34:01,188 WARNING Engine.jmeter.LoadSettingsProcessor] Thread group detection: plugin for ConcurrentThreadGroup not found, regular ThreadGroup will be used
+[2020-09-15 13:34:01,189 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (staging admin Thread Group) to ThreadGroup and apply load parameters
+[2020-09-15 13:34:01,189 DEBUG JMX] Saving JMX to: /Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx
+[2020-09-15 13:34:01,190 DEBUG root] Executing shell: ['/usr/local/bin/PluginsManagerCMD.sh', 'install-for-jmx', '/Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx'] at .
+[2020-09-15 13:34:01,219 WARNING Engine.jmeter.JMeter] Failed to detect plugins for /Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx: [Errno 2] No such file or directory: '/usr/local/bin/PluginsManagerCMD.sh': '/usr/local/bin/PluginsManagerCMD.sh'
+[2020-09-15 13:34:01,220 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/jmeter-4.out
+[2020-09-15 13:34:01,221 DEBUG Engine] New artifact filename: /Users/theodorespecht/kajabi-jmeter/artifacts/jmeter-4.err
+[2020-09-15 13:34:01,223 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2020-09-15 13:34:01,223 DEBUG root] Importing module: bzt.modules.reporting
+[2020-09-15 13:34:01,254 DEBUG easyprocess] version=0.2.10
+[2020-09-15 13:34:01,256 DEBUG pyvirtualdisplay] version=0.2.5
+[2020-09-15 13:34:01,259 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/reporting.py'>
+[2020-09-15 13:34:01,259 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2020-09-15 13:34:01,259 DEBUG root] Importing module: bzt.modules.console
+[2020-09-15 13:34:01,259 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/console.py'>
+[2020-09-15 13:34:01,259 DEBUG Engine] Module config: final_stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2020-09-15 13:34:01,259 DEBUG root] Importing module: bzt.modules.reporting
+[2020-09-15 13:34:01,259 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/modules/reporting.py'>
+[2020-09-15 13:34:01,266 DEBUG Engine.Configuration] Dumping YAML config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.yml
+[2020-09-15 13:34:01,292 DEBUG Engine.Configuration] Dumping JSON config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.json
+[2020-09-15 13:34:01,293 INFO Engine] Starting...
+[2020-09-15 13:34:01,294 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x10b489c10>
+[2020-09-15 13:34:01,294 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x10b4a9b10>
+[2020-09-15 13:34:01,294 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x10d953210>
+[2020-09-15 13:34:01,294 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x10d984290>
+[2020-09-15 13:34:01,294 INFO Engine.console] Waiting for results...
+[2020-09-15 13:34:01,294 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x10d917fd0>
+[2020-09-15 13:34:01,294 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x10d8637d0>
+[2020-09-15 13:34:01,294 DEBUG Engine.local] Delay setup for jmeter/jmx_sample: 0(start-at) + 0(delay) = 0
+[2020-09-15 13:34:01,296 DEBUG Engine.Configuration] Dumping YAML config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.yml
+[2020-09-15 13:34:01,318 DEBUG Engine.Configuration] Dumping JSON config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.json
+[2020-09-15 13:34:01,319 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-09-15 13:34:01,319 DEBUG root] Leveled up log file verbosity
+[2020-09-15 13:34:01,320 DEBUG root] Executing shell: ['/usr/local/bin/jmeter', '-t', '/Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx', '-j', '/Users/theodorespecht/kajabi-jmeter/artifacts/jmeter-2.log', '-q', '/Users/theodorespecht/kajabi-jmeter/artifacts/jmeter-bzt-6.properties', '-n'] at /Users/theodorespecht/kajabi-jmeter
+[2020-09-15 13:34:01,325 DEBUG Engine.local] Starting execution: jmeter/jmx_sample, rest of available slots: 9223372036854775806
+[2020-09-15 13:34:01,326 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2020-09-15 13:34:01,561 INFO Engine.console] Waiting for finish...
+[2020-09-15 13:34:02,502 WARNING Engine] There is newer version of Taurus 1.15.0 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2020-09-15 13:34:07,371 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 5s
+[2020-09-15 13:34:11,390 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 7s
+[2020-09-15 13:34:14,404 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 8s
+[2020-09-15 13:34:21,438 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 9s
+[2020-09-15 13:34:24,453 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 11s
+[2020-09-15 13:34:27,490 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 14s
+[2020-09-15 13:34:30,497 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 18s
+[2020-09-15 13:34:35,519 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 19s
+[2020-09-15 13:34:37,521 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 20s
+[2020-09-15 13:34:42,641 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 24s
+[2020-09-15 13:34:46,565 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 23s
+[2020-09-15 13:34:48,582 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 24s
+[2020-09-15 13:34:52,687 WARNING Engine] Please wait for graceful shutdown...
+[2020-09-15 13:34:52,692 DEBUG root] Leveled up log file verbosity
+[2020-09-15 13:34:52,692 INFO Engine] Shutting down...
+[2020-09-15 13:34:52,698 DEBUG Engine] Current stop reason: 
+[2020-09-15 13:34:52,698 DEBUG Engine.local] Shutdown jmeter/jmx_sample
+[2020-09-15 13:34:53,702 INFO Engine.jmeter] Sending Shutdown command to JMeter on port 4446...
+[2020-09-15 13:34:58,730 INFO Engine.jmeter] Sending StopTestNow command to JMeter on port 4446...
+[2020-09-15 13:34:59,739 DEBUG Engine.jmeter] JMeter stopped on StopTestNow command
+[2020-09-15 13:34:59,740 DEBUG Engine.console] Restoring logging streams, [<StreamHandler (INFO)>]/{<StreamHandler (INFO)>: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>}
+[2020-09-15 13:34:59,742 DEBUG Engine.Configuration] Dumping YAML config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.yml
+[2020-09-15 13:34:59,761 DEBUG Engine.Configuration] Dumping JSON config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.json
+[2020-09-15 13:34:59,763 WARNING root] Keyboard interrupt
+[2020-09-15 13:34:59,765 DEBUG root] KeyboardInterrupt: 
+  File "/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/cli.py", line 259, in perform
+    self.engine.run()
+  File "/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/engine/engine.py", line 248, in run
+    reraise(exc_info, exc_value)
+  File "/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/six/py3.py", line 86, in reraise
+    raise exc
+  File "/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/engine/engine.py", line 227, in run
+    self._wait()
+  File "/usr/local/Cellar/bzt/1.14.2_2/libexec/lib/python3.7/site-packages/bzt/engine/engine.py", line 276, in _wait
+    time.sleep(delay)
+[2020-09-15 13:34:59,765 INFO Engine] Post-processing...
+[2020-09-15 13:34:59,765 DEBUG Engine.local] Post-process jmeter/jmx_sample
+[2020-09-15 13:34:59,765 DEBUG Engine] Add existing artifact (move=True): /Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx
+[2020-09-15 13:34:59,765 DEBUG Engine] Moving /Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx to /Users/theodorespecht/kajabi-jmeter/artifacts/modified_Kajabi-staging-admin.jmx
+[2020-09-15 13:34:59,765 DEBUG Engine.jmeter.JTLErrorsReader.FileReader] Opening file: /Users/theodorespecht/kajabi-jmeter/artifacts/error-2.jtl
+[2020-09-15 13:34:59,766 DEBUG Engine.jmeter.JTLErrorsReader] Read bytes from error file: 407861
+[2020-09-15 13:34:59,782 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read: 95 lines / 14287 bytes (at speed 1048576)
+[2020-09-15 13:34:59,785 DEBUG Engine.jmeter.JTLReader] Buffer len: 29; Known errors count: 1
+[2020-09-15 13:34:59,785 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202065, 29 in buffer
+[2020-09-15 13:34:59,786 DEBUG aggregator] Growing HDR from 5000.0 to 8000.0
+[2020-09-15 13:34:59,786 DEBUG aggregator] Growing HDR from 11000.0 to 29000.0
+[2020-09-15 13:34:59,797 DEBUG aggregator] Growing HDR from 25000.0 to 29000.0
+[2020-09-15 13:34:59,804 DEBUG aggregator] Growing HDR from 11000.0 to 29000.0
+[2020-09-15 13:34:59,808 DEBUG aggregator] Growing HDR from 5000.0 to 8000.0
+[2020-09-15 13:34:59,809 DEBUG aggregator] Growing HDR from 25000.0 to 29000.0
+[2020-09-15 13:34:59,811 DEBUG Engine.jmeter.JTLReader] Buffer len: 28; Known errors count: 1
+[2020-09-15 13:34:59,866 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202066, 28 in buffer
+[2020-09-15 13:34:59,877 DEBUG Engine.jmeter.JTLReader] Buffer len: 27; Known errors count: 1
+[2020-09-15 13:34:59,933 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 26s
+[2020-09-15 13:34:59,933 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202067, 27 in buffer
+[2020-09-15 13:34:59,934 DEBUG aggregator] Growing HDR from 9000.0 to 26000.0
+[2020-09-15 13:34:59,942 DEBUG aggregator] Growing HDR from 9000.0 to 26000.0
+[2020-09-15 13:34:59,947 DEBUG Engine.jmeter.JTLReader] Buffer len: 26; Known errors count: 1
+[2020-09-15 13:35:00,004 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202068, 26 in buffer
+[2020-09-15 13:35:00,004 DEBUG aggregator] Growing HDR from 9000.0 to 12000.0
+[2020-09-15 13:35:00,004 DEBUG aggregator] Growing HDR from 8000.0 to 16000.0
+[2020-09-15 13:35:00,026 DEBUG aggregator] Growing HDR from 9000.0 to 12000.0
+[2020-09-15 13:35:00,026 DEBUG aggregator] Growing HDR from 8000.0 to 16000.0
+[2020-09-15 13:35:00,031 DEBUG Engine.jmeter.JTLReader] Buffer len: 25; Known errors count: 1
+[2020-09-15 13:35:00,086 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202069, 25 in buffer
+[2020-09-15 13:35:00,105 DEBUG Engine.jmeter.JTLReader] Buffer len: 24; Known errors count: 1
+[2020-09-15 13:35:00,160 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202070, 24 in buffer
+[2020-09-15 13:35:00,167 DEBUG Engine.jmeter.JTLReader] Buffer len: 23; Known errors count: 1
+[2020-09-15 13:35:00,223 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202071, 23 in buffer
+[2020-09-15 13:35:00,223 DEBUG aggregator] Growing HDR from 8000.0 to 28000.0
+[2020-09-15 13:35:00,234 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202071, labels: dict_keys(['Get Product 8', '', 'Get pipelines '])
+[2020-09-15 13:35:00,235 DEBUG aggregator] Growing HDR from 8000.0 to 28000.0
+[2020-09-15 13:35:00,241 DEBUG Engine.jmeter.JTLReader] Buffer len: 22; Known errors count: 1
+[2020-09-15 13:35:00,297 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 27s
+[2020-09-15 13:35:00,297 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202072, 22 in buffer
+[2020-09-15 13:35:00,297 DEBUG aggregator] Growing HDR from 12000.0 to 14000.0
+[2020-09-15 13:35:00,314 DEBUG aggregator] Growing HDR from 12000.0 to 14000.0
+[2020-09-15 13:35:00,316 DEBUG Engine.jmeter.JTLReader] Buffer len: 21; Known errors count: 1
+[2020-09-15 13:35:00,373 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 29s
+[2020-09-15 13:35:00,373 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202073, 21 in buffer
+[2020-09-15 13:35:00,384 DEBUG Engine.jmeter.JTLReader] Buffer len: 20; Known errors count: 1
+[2020-09-15 13:35:00,441 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 30s
+[2020-09-15 13:35:00,442 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202074, 20 in buffer
+[2020-09-15 13:35:00,442 DEBUG aggregator] Growing HDR from 9000.0 to 10000.0
+[2020-09-15 13:35:00,454 DEBUG aggregator] Growing HDR from 9000.0 to 10000.0
+[2020-09-15 13:35:00,456 DEBUG Engine.jmeter.JTLReader] Buffer len: 19; Known errors count: 1
+[2020-09-15 13:35:00,514 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202075, 19 in buffer
+[2020-09-15 13:35:00,515 DEBUG aggregator] Growing HDR from 10000.0 to 19000.0
+[2020-09-15 13:35:00,519 DEBUG aggregator] Growing HDR from 12000.0 to 24000.0
+[2020-09-15 13:35:00,531 DEBUG aggregator] Growing HDR from 10000.0 to 19000.0
+[2020-09-15 13:35:00,535 DEBUG aggregator] Growing HDR from 12000.0 to 24000.0
+[2020-09-15 13:35:00,540 DEBUG Engine.jmeter.JTLReader] Buffer len: 18; Known errors count: 1
+[2020-09-15 13:35:00,598 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 35s
+[2020-09-15 13:35:00,598 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202076, 18 in buffer
+[2020-09-15 13:35:00,602 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202076, labels: dict_keys(['Get Products page', ''])
+[2020-09-15 13:35:00,605 DEBUG Engine.jmeter.JTLReader] Buffer len: 17; Known errors count: 1
+[2020-09-15 13:35:00,663 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 37s
+[2020-09-15 13:35:00,664 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202077, 17 in buffer
+[2020-09-15 13:35:00,670 DEBUG Engine.jmeter.JTLReader] Buffer len: 16; Known errors count: 1
+[2020-09-15 13:35:00,728 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202078, 16 in buffer
+[2020-09-15 13:35:00,728 DEBUG aggregator] Growing HDR from 14000.0 to 17000.0
+[2020-09-15 13:35:00,737 DEBUG aggregator] Growing HDR from 14000.0 to 17000.0
+[2020-09-15 13:35:00,743 DEBUG Engine.jmeter.JTLReader] Buffer len: 15; Known errors count: 1
+[2020-09-15 13:35:00,800 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 35s
+[2020-09-15 13:35:00,800 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202079, 15 in buffer
+[2020-09-15 13:35:00,801 DEBUG aggregator] Growing HDR from 11000.0 to 18000.0
+[2020-09-15 13:35:00,806 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202079, labels: dict_keys(['Get Products page', ''])
+[2020-09-15 13:35:00,806 DEBUG aggregator] Growing HDR from 11000.0 to 18000.0
+[2020-09-15 13:35:00,813 DEBUG Engine.jmeter.JTLReader] Buffer len: 14; Known errors count: 1
+[2020-09-15 13:35:00,871 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 37s
+[2020-09-15 13:35:00,871 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202080, 14 in buffer
+[2020-09-15 13:35:00,873 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202080, labels: dict_keys(['Get admin login page', ''])
+[2020-09-15 13:35:00,877 DEBUG Engine.jmeter.JTLReader] Buffer len: 13; Known errors count: 1
+[2020-09-15 13:35:00,935 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202081, 13 in buffer
+[2020-09-15 13:35:00,943 DEBUG Engine.jmeter.JTLReader] Buffer len: 12; Known errors count: 1
+[2020-09-15 13:35:01,003 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202082, 12 in buffer
+[2020-09-15 13:35:01,007 DEBUG Engine.jmeter.JTLReader] Buffer len: 11; Known errors count: 1
+[2020-09-15 13:35:01,076 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 35s
+[2020-09-15 13:35:01,077 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202083, 11 in buffer
+[2020-09-15 13:35:01,081 DEBUG Engine.jmeter.JTLReader] Buffer len: 10; Known errors count: 1
+[2020-09-15 13:35:01,141 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202084, 10 in buffer
+[2020-09-15 13:35:01,147 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202084, labels: dict_keys(['Get Products page', '', 'Get Product 2', 'Get pipeline 29'])
+[2020-09-15 13:35:01,151 DEBUG Engine.jmeter.JTLReader] Buffer len: 9; Known errors count: 1
+[2020-09-15 13:35:01,210 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 34s
+[2020-09-15 13:35:01,211 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202085, 9 in buffer
+[2020-09-15 13:35:01,212 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202085, labels: dict_keys(['Get Product 8 post 33 edit', '', 'Get Products page'])
+[2020-09-15 13:35:01,215 DEBUG Engine.jmeter.JTLReader] Buffer len: 8; Known errors count: 1
+[2020-09-15 13:35:01,275 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202086, 8 in buffer
+[2020-09-15 13:35:01,280 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202086, labels: dict_keys(['Get admin login page', '', 'Get Product 8 catagory 25 edit'])
+[2020-09-15 13:35:01,283 DEBUG Engine.jmeter.JTLReader] Buffer len: 7; Known errors count: 1
+[2020-09-15 13:35:01,343 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202087, 7 in buffer
+[2020-09-15 13:35:01,344 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202087, labels: dict_keys(['Post admin login', ''])
+[2020-09-15 13:35:01,347 DEBUG Engine.jmeter.JTLReader] Buffer len: 6; Known errors count: 1
+[2020-09-15 13:35:01,407 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202088, 6 in buffer
+[2020-09-15 13:35:01,413 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202088, labels: dict_keys(['Get Product 8', '', 'Get Products page', 'Get pipelines '])
+[2020-09-15 13:35:01,417 DEBUG Engine.jmeter.JTLReader] Buffer len: 5; Known errors count: 1
+[2020-09-15 13:35:01,479 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202089, 5 in buffer
+[2020-09-15 13:35:01,480 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202089, labels: dict_keys(['Get Product 8', '', 'Get admin login page'])
+[2020-09-15 13:35:01,483 DEBUG Engine.jmeter.JTLReader] Buffer len: 4; Known errors count: 1
+[2020-09-15 13:35:01,545 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202090, 4 in buffer
+[2020-09-15 13:35:01,546 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202090, labels: dict_keys(['Get Products page', '', 'Get Product 8 catagory 25 edit', 'Get Product 8'])
+[2020-09-15 13:35:01,549 DEBUG Engine.jmeter.JTLReader] Buffer len: 3; Known errors count: 1
+[2020-09-15 13:35:01,610 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 32s
+[2020-09-15 13:35:01,610 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202091, 3 in buffer
+[2020-09-15 13:35:01,612 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202091, labels: dict_keys(['Get admin login page', '', 'Get Product 8 catagory 25 edit', 'Get Product 8', 'Get Products page'])
+[2020-09-15 13:35:01,633 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 1
+[2020-09-15 13:35:01,693 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202092, 2 in buffer
+[2020-09-15 13:35:01,695 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202092, labels: dict_keys(['Get Product 8 post 33 edit', '', 'Get Product 8', 'Get Product 8 catagory 25 edit', 'Get Product 2'])
+[2020-09-15 13:35:01,698 DEBUG Engine.jmeter.JTLReader] Buffer len: 1; Known errors count: 1
+[2020-09-15 13:35:01,760 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 31s
+[2020-09-15 13:35:01,760 DEBUG Engine.jmeter.JTLReader] Aggregating: 1600202093, 1 in buffer
+[2020-09-15 13:35:01,762 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1600202093, labels: dict_keys(['Get Products page', '', 'Get Product 8 catagory 25 edit', 'Get admin login page', 'Get Product 8'])
+[2020-09-15 13:35:01,765 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 1
+[2020-09-15 13:35:01,766 DEBUG Engine.consolidator] Consolidator buffer[31]: dict_keys([1600202063, 1600202064, 1600202065, 1600202066, 1600202067, 1600202068, 1600202069, 1600202070, 1600202071, 1600202072, 1600202073, 1600202074, 1600202075, 1600202076, 1600202077, 1600202078, 1600202079, 1600202080, 1600202081, 1600202082, 1600202083, 1600202084, 1600202085, 1600202086, 1600202087, 1600202088, 1600202089, 1600202090, 1600202091, 1600202092, 1600202093])
+[2020-09-15 13:35:01,766 DEBUG Engine.consolidator] Merging into 1600202063
+[2020-09-15 13:35:01,766 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:01,766 DEBUG aggregator] Growing HDR from 18000.0 to 25000.0
+[2020-09-15 13:35:01,767 DEBUG aggregator] Growing HDR from 18000.0 to 25000.0
+[2020-09-15 13:35:01,871 DEBUG Engine.consolidator] Processed datapoint: 1600202063/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:01,871 DEBUG Engine.consolidator] Merging into 1600202064
+[2020-09-15 13:35:01,872 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:01,968 DEBUG Engine.consolidator] Processed datapoint: 1600202064/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:01,968 DEBUG Engine.consolidator] Merging into 1600202065
+[2020-09-15 13:35:01,968 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:01,968 DEBUG aggregator] Growing HDR from 11000.0 to 29000.0
+[2020-09-15 13:35:01,972 DEBUG aggregator] Growing HDR from 5000.0 to 8000.0
+[2020-09-15 13:35:01,973 DEBUG aggregator] Growing HDR from 25000.0 to 29000.0
+[2020-09-15 13:35:02,086 DEBUG Engine.consolidator] Processed datapoint: 1600202065/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,087 DEBUG Engine.consolidator] Merging into 1600202066
+[2020-09-15 13:35:02,087 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,202 DEBUG Engine.consolidator] Processed datapoint: 1600202066/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,202 DEBUG Engine.consolidator] Merging into 1600202067
+[2020-09-15 13:35:02,202 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,203 DEBUG aggregator] Growing HDR from 9000.0 to 26000.0
+[2020-09-15 13:35:02,317 DEBUG Engine.consolidator] Processed datapoint: 1600202067/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,318 DEBUG Engine.consolidator] Merging into 1600202068
+[2020-09-15 13:35:02,318 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,319 DEBUG aggregator] Growing HDR from 9000.0 to 12000.0
+[2020-09-15 13:35:02,320 DEBUG aggregator] Growing HDR from 8000.0 to 16000.0
+[2020-09-15 13:35:02,425 DEBUG Engine.consolidator] Processed datapoint: 1600202068/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,425 DEBUG Engine.consolidator] Merging into 1600202069
+[2020-09-15 13:35:02,425 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,524 DEBUG Engine.consolidator] Processed datapoint: 1600202069/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,524 DEBUG Engine.consolidator] Merging into 1600202070
+[2020-09-15 13:35:02,524 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,623 DEBUG Engine.consolidator] Processed datapoint: 1600202070/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,624 DEBUG Engine.consolidator] Merging into 1600202071
+[2020-09-15 13:35:02,624 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,624 DEBUG aggregator] Growing HDR from 8000.0 to 28000.0
+[2020-09-15 13:35:02,738 DEBUG Engine.consolidator] Processed datapoint: 1600202071/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,738 DEBUG Engine.consolidator] Merging into 1600202072
+[2020-09-15 13:35:02,739 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,740 DEBUG aggregator] Growing HDR from 12000.0 to 14000.0
+[2020-09-15 13:35:02,845 DEBUG Engine.consolidator] Processed datapoint: 1600202072/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,845 DEBUG Engine.consolidator] Merging into 1600202073
+[2020-09-15 13:35:02,845 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,957 DEBUG Engine.consolidator] Processed datapoint: 1600202073/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:02,957 DEBUG Engine.consolidator] Merging into 1600202074
+[2020-09-15 13:35:02,957 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:02,957 DEBUG aggregator] Growing HDR from 9000.0 to 10000.0
+[2020-09-15 13:35:03,067 DEBUG Engine.consolidator] Processed datapoint: 1600202074/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,067 DEBUG Engine.consolidator] Merging into 1600202075
+[2020-09-15 13:35:03,067 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,068 DEBUG aggregator] Growing HDR from 10000.0 to 19000.0
+[2020-09-15 13:35:03,072 DEBUG aggregator] Growing HDR from 12000.0 to 24000.0
+[2020-09-15 13:35:03,189 DEBUG Engine.consolidator] Processed datapoint: 1600202075/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,190 DEBUG Engine.consolidator] Merging into 1600202076
+[2020-09-15 13:35:03,190 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,301 DEBUG Engine.consolidator] Processed datapoint: 1600202076/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,302 DEBUG Engine.consolidator] Merging into 1600202077
+[2020-09-15 13:35:03,302 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,403 DEBUG Engine.consolidator] Processed datapoint: 1600202077/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,403 DEBUG Engine.consolidator] Merging into 1600202078
+[2020-09-15 13:35:03,403 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,404 DEBUG aggregator] Growing HDR from 14000.0 to 17000.0
+[2020-09-15 13:35:03,514 DEBUG Engine.consolidator] Processed datapoint: 1600202078/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,514 DEBUG Engine.consolidator] Merging into 1600202079
+[2020-09-15 13:35:03,514 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,515 DEBUG aggregator] Growing HDR from 11000.0 to 18000.0
+[2020-09-15 13:35:03,629 DEBUG Engine.consolidator] Processed datapoint: 1600202079/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,630 DEBUG Engine.consolidator] Merging into 1600202080
+[2020-09-15 13:35:03,630 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,740 DEBUG Engine.consolidator] Processed datapoint: 1600202080/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,740 DEBUG Engine.consolidator] Merging into 1600202081
+[2020-09-15 13:35:03,740 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,844 DEBUG Engine.consolidator] Processed datapoint: 1600202081/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,845 DEBUG Engine.consolidator] Merging into 1600202082
+[2020-09-15 13:35:03,845 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:03,952 DEBUG Engine.consolidator] Processed datapoint: 1600202082/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:03,952 DEBUG Engine.consolidator] Merging into 1600202083
+[2020-09-15 13:35:03,952 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,060 DEBUG Engine.consolidator] Processed datapoint: 1600202083/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,060 DEBUG Engine.consolidator] Merging into 1600202084
+[2020-09-15 13:35:04,060 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,167 DEBUG Engine.consolidator] Processed datapoint: 1600202084/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,167 DEBUG Engine.consolidator] Merging into 1600202085
+[2020-09-15 13:35:04,167 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,274 DEBUG Engine.consolidator] Processed datapoint: 1600202085/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,274 DEBUG Engine.consolidator] Merging into 1600202086
+[2020-09-15 13:35:04,274 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,380 DEBUG Engine.consolidator] Processed datapoint: 1600202086/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,381 DEBUG Engine.consolidator] Merging into 1600202087
+[2020-09-15 13:35:04,381 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,485 DEBUG Engine.consolidator] Processed datapoint: 1600202087/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,485 DEBUG Engine.consolidator] Merging into 1600202088
+[2020-09-15 13:35:04,485 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,588 DEBUG Engine.consolidator] Processed datapoint: 1600202088/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,588 DEBUG Engine.consolidator] Merging into 1600202089
+[2020-09-15 13:35:04,588 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,691 DEBUG Engine.consolidator] Processed datapoint: 1600202089/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,691 DEBUG Engine.consolidator] Merging into 1600202090
+[2020-09-15 13:35:04,691 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,794 DEBUG Engine.consolidator] Processed datapoint: 1600202090/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,794 DEBUG Engine.consolidator] Merging into 1600202091
+[2020-09-15 13:35:04,794 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,894 DEBUG Engine.consolidator] Processed datapoint: 1600202091/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,894 DEBUG Engine.consolidator] Merging into 1600202092
+[2020-09-15 13:35:04,894 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:04,992 DEBUG Engine.consolidator] Processed datapoint: 1600202092/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:04,992 DEBUG Engine.consolidator] Merging into 1600202093
+[2020-09-15 13:35:04,992 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2020-09-15 13:35:05,091 DEBUG Engine.consolidator] Processed datapoint: 1600202093/ConsolidatingAggregator@4484406032
+[2020-09-15 13:35:05,091 INFO Engine.final-stats] Test duration: 0:00:58
+[2020-09-15 13:35:05,091 INFO Engine.final-stats] Samples count: 367, 11.17% failures
+[2020-09-15 13:35:05,091 INFO Engine.final-stats] Average times: total 6.758, latency 2.916, connect 1.152
+[2020-09-15 13:35:05,092 INFO Engine.final-stats] Percentiles:
+(0lqqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqk(B
+(0x(B Percentile, % (0x(B Resp. Time, s (0x(B
+(0tqqqqqqqqqqqqqqqnqqqqqqqqqqqqqqqu(B
+(0x(B           0.0 (0x(B         0.398 (0x(B
+(0x(B          50.0 (0x(B         5.816 (0x(B
+(0x(B          90.0 (0x(B        13.144 (0x(B
+(0x(B          95.0 (0x(B         15.72 (0x(B
+(0x(B          99.0 (0x(B        25.776 (0x(B
+(0x(B          99.9 (0x(B         28.96 (0x(B
+(0x(B         100.0 (0x(B         28.96 (0x(B
+(0mqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqj(B
+[2020-09-15 13:35:05,094 INFO Engine.final-stats] Request label stats:
+(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwqqqqqqqqwqqqqqqqqwqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B
+(0x(B label                          (0x(B status (0x(B   succ (0x(B avg_rt (0x(B error                                    (0x(B
+(0tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqnqqqqqqqqnqqqqqqqqnqqqqqqqqnqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu(B
+(0x(B Get Product 2                  (0x(B  FAIL  (0x(B 82.35% (0x(B  9.541 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Product 8                  (0x(B  FAIL  (0x(B 84.31% (0x(B  8.640 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Product 8 catagory 25 edit (0x(B  FAIL  (0x(B 75.00% (0x(B  6.922 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Product 8 post 33 edit     (0x(B  FAIL  (0x(B 90.00% (0x(B  7.627 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Products page              (0x(B  FAIL  (0x(B 85.51% (0x(B 10.572 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get admin login page           (0x(B  FAIL  (0x(B 94.12% (0x(B  4.656 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get pipeline 29                (0x(B  FAIL  (0x(B 87.50% (0x(B  9.729 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get pipelines                  (0x(B  FAIL  (0x(B 80.00% (0x(B  9.447 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Post admin login               (0x(B  FAIL  (0x(B 98.59% (0x(B  2.506 (0x(B Non HTTP response message: Socket closed (0x(B
+(0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqvqqqqqqqqvqqqqqqqqvqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B
+[2020-09-15 13:35:05,095 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2020-09-15 13:35:05,095 INFO Engine.final_stats] Test duration: 0:00:58
+[2020-09-15 13:35:05,095 INFO Engine.final_stats] Samples count: 367, 11.17% failures
+[2020-09-15 13:35:05,095 INFO Engine.final_stats] Average times: total 6.758, latency 2.916, connect 1.152
+[2020-09-15 13:35:05,095 INFO Engine.final_stats] Percentiles:
+(0lqqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqk(B
+(0x(B Percentile, % (0x(B Resp. Time, s (0x(B
+(0tqqqqqqqqqqqqqqqnqqqqqqqqqqqqqqqu(B
+(0x(B           0.0 (0x(B         0.398 (0x(B
+(0x(B          50.0 (0x(B         5.816 (0x(B
+(0x(B          90.0 (0x(B        13.144 (0x(B
+(0x(B          95.0 (0x(B         15.72 (0x(B
+(0x(B          99.0 (0x(B        25.776 (0x(B
+(0x(B          99.9 (0x(B         28.96 (0x(B
+(0x(B         100.0 (0x(B         28.96 (0x(B
+(0mqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqj(B
+[2020-09-15 13:35:05,097 INFO Engine.final_stats] Request label stats:
+(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwqqqqqqqqwqqqqqqqqwqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B
+(0x(B label                          (0x(B status (0x(B   succ (0x(B avg_rt (0x(B error                                    (0x(B
+(0tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqnqqqqqqqqnqqqqqqqqnqqqqqqqqnqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu(B
+(0x(B Get Product 2                  (0x(B  FAIL  (0x(B 82.35% (0x(B  9.541 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Product 8                  (0x(B  FAIL  (0x(B 84.31% (0x(B  8.640 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Product 8 catagory 25 edit (0x(B  FAIL  (0x(B 75.00% (0x(B  6.922 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Product 8 post 33 edit     (0x(B  FAIL  (0x(B 90.00% (0x(B  7.627 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get Products page              (0x(B  FAIL  (0x(B 85.51% (0x(B 10.572 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get admin login page           (0x(B  FAIL  (0x(B 94.12% (0x(B  4.656 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get pipeline 29                (0x(B  FAIL  (0x(B 87.50% (0x(B  9.729 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Get pipelines                  (0x(B  FAIL  (0x(B 80.00% (0x(B  9.447 (0x(B Non HTTP response message: Socket closed (0x(B
+(0x(B Post admin login               (0x(B  FAIL  (0x(B 98.59% (0x(B  2.506 (0x(B Non HTTP response message: Socket closed (0x(B
+(0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqvqqqqqqqqvqqqqqqqqvqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B
+[2020-09-15 13:35:05,098 DEBUG Engine.Configuration] Dumping YAML config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.yml
+[2020-09-15 13:35:05,118 DEBUG Engine.Configuration] Dumping JSON config into /Users/theodorespecht/kajabi-jmeter/artifacts/effective.json
+[2020-09-15 13:35:05,118 INFO root] Artifacts dir: /Users/theodorespecht/kajabi-jmeter/artifacts
+[2020-09-15 13:35:05,119 WARNING root] Done performing with code: 1
+[2020-09-15 13:35:05,119 DEBUG root] Closing log handler: /Users/theodorespecht/kajabi-jmeter/artifacts/bzt.log

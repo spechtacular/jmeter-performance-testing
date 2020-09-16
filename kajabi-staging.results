@@ -1,0 +1,66 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1600199370380,850,Get admin login page,200,OK,staging admin Thread Group 1-1,text,true,,12733,132,1,1,https://app.newkajabi-staging.com/login,770,0,588
+1600199371237,401,Post admin login,200,OK,staging admin Thread Group 1-1,text,true,,4384,1301,1,1,https://app.newkajabi-staging.com/login,396,0,0
+1600199371638,1005,Get Products page,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,451,0,284
+1600199371638,452,https://app.newkajabi-staging.com/admin/sites/2/products/,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/sites/2/products/,451,0,284
+1600199372091,552,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,469,0,285
+1600199372645,720,Get Product 8,200,OK,staging admin Thread Group 1-1,text,true,,13557,385,1,1,https://app.newkajabi-staging.com/login,177,0,0
+1600199372645,178,https://app.newkajabi-staging.com/admin/products/8,302,Found,staging admin Thread Group 1-1,text,true,,712,198,1,1,https://app.newkajabi-staging.com/admin/products/8,177,0,0
+1600199372824,541,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,458,0,283
+1600199373366,665,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-1,text,true,,13557,393,1,1,https://app.newkajabi-staging.com/login,168,0,0
+1600199373366,169,https://app.newkajabi-staging.com/admin/categories/25/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,206,1,1,https://app.newkajabi-staging.com/admin/categories/25/edit,168,0,0
+1600199373536,495,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,473,0,285
+1600199374033,718,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-1,text,true,,13557,388,1,1,https://app.newkajabi-staging.com/login,171,0,0
+1600199374033,172,https://app.newkajabi-staging.com/admin/posts/33/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,201,1,1,https://app.newkajabi-staging.com/admin/posts/33/edit,171,0,0
+1600199374205,546,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,463,0,282
+1600199374752,674,Get Product 2,200,OK,staging admin Thread Group 1-1,text,true,,13557,385,1,1,https://app.newkajabi-staging.com/login,179,0,0
+1600199374752,179,https://app.newkajabi-staging.com/admin/products/2,302,Found,staging admin Thread Group 1-1,text,true,,712,198,1,1,https://app.newkajabi-staging.com/admin/products/2,179,0,0
+1600199374932,494,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,467,0,283
+1600199375428,657,Get pipelines ,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,162,0,0
+1600199375428,162,https://app.newkajabi-staging.com/admin/sites/2/pipelines,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/sites/2/pipelines,162,0,0
+1600199375591,494,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,476,0,285
+1600199376086,653,Get pipeline 29,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,159,0,0
+1600199376086,160,https://app.newkajabi-staging.com/admin/pipelines/29/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/pipelines/29/edit,159,0,0
+1600199376246,493,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,461,0,284
+1600199376740,726,Get Products page,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,161,0,0
+1600199376740,162,https://app.newkajabi-staging.com/admin/sites/2/products/,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/sites/2/products/,161,0,0
+1600199376902,564,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,482,0,283
+1600199377467,660,Get Product 8,200,OK,staging admin Thread Group 1-1,text,true,,13557,385,1,1,https://app.newkajabi-staging.com/login,170,0,0
+1600199377467,174,https://app.newkajabi-staging.com/admin/products/8,302,Found,staging admin Thread Group 1-1,text,true,,712,198,1,1,https://app.newkajabi-staging.com/admin/products/8,170,0,0
+1600199377641,486,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,474,0,278
+1600199378128,669,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-1,text,true,,13557,393,1,1,https://app.newkajabi-staging.com/login,161,0,0
+1600199378128,162,https://app.newkajabi-staging.com/admin/categories/25/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,206,1,1,https://app.newkajabi-staging.com/admin/categories/25/edit,161,0,0
+1600199378291,506,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,502,0,284
+1600199378798,681,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-1,text,true,,13557,388,1,1,https://app.newkajabi-staging.com/login,180,0,0
+1600199378798,181,https://app.newkajabi-staging.com/admin/posts/33/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,201,1,1,https://app.newkajabi-staging.com/admin/posts/33/edit,180,0,0
+1600199378980,499,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,472,0,280
+1600199379480,677,Get Product 2,200,OK,staging admin Thread Group 1-1,text,true,,13557,385,1,1,https://app.newkajabi-staging.com/login,168,0,0
+1600199379480,168,https://app.newkajabi-staging.com/admin/products/2,302,Found,staging admin Thread Group 1-1,text,true,,712,198,1,1,https://app.newkajabi-staging.com/admin/products/2,168,0,0
+1600199379649,508,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,477,0,286
+1600199380158,662,Get pipelines ,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,164,0,0
+1600199380158,164,https://app.newkajabi-staging.com/admin/sites/2/pipelines,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/sites/2/pipelines,164,0,0
+1600199380322,498,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,471,0,282
+1600199380820,717,Get pipeline 29,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,186,0,0
+1600199380820,186,https://app.newkajabi-staging.com/admin/pipelines/29/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/pipelines/29/edit,186,0,0
+1600199381007,530,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,529,0,285
+1600199381537,931,Get Products page,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,161,0,0
+1600199381537,162,https://app.newkajabi-staging.com/admin/sites/2/products/,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/sites/2/products/,161,0,0
+1600199381699,769,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,569,0,284
+1600199382469,1176,Get Product 8,200,OK,staging admin Thread Group 1-1,text,true,,13557,385,1,1,https://app.newkajabi-staging.com/login,483,0,0
+1600199382469,483,https://app.newkajabi-staging.com/admin/products/8,302,Found,staging admin Thread Group 1-1,text,true,,712,198,1,1,https://app.newkajabi-staging.com/admin/products/8,483,0,0
+1600199382953,692,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,688,0,467
+1600199383646,666,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-1,text,true,,13557,393,1,1,https://app.newkajabi-staging.com/login,167,0,0
+1600199383646,167,https://app.newkajabi-staging.com/admin/categories/25/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,206,1,1,https://app.newkajabi-staging.com/admin/categories/25/edit,167,0,0
+1600199383814,498,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,466,0,285
+1600199384313,672,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-1,text,true,,13557,388,1,1,https://app.newkajabi-staging.com/login,177,0,0
+1600199384313,177,https://app.newkajabi-staging.com/admin/posts/33/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,201,1,1,https://app.newkajabi-staging.com/admin/posts/33/edit,177,0,0
+1600199384491,494,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,458,0,282
+1600199384985,707,Get Product 2,200,OK,staging admin Thread Group 1-1,text,true,,13557,385,1,1,https://app.newkajabi-staging.com/login,182,0,0
+1600199384985,183,https://app.newkajabi-staging.com/admin/products/2,302,Found,staging admin Thread Group 1-1,text,true,,712,198,1,1,https://app.newkajabi-staging.com/admin/products/2,182,0,0
+1600199385168,524,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,488,0,308
+1600199385694,677,Get pipelines ,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,159,0,0
+1600199385694,160,https://app.newkajabi-staging.com/admin/sites/2/pipelines,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/sites/2/pipelines,159,0,0
+1600199385854,517,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,499,0,305
+1600199386372,676,Get pipeline 29,200,OK,staging admin Thread Group 1-1,text,true,,13557,392,1,1,https://app.newkajabi-staging.com/login,174,0,0
+1600199386372,174,https://app.newkajabi-staging.com/admin/pipelines/29/edit,302,Found,staging admin Thread Group 1-1,text,true,,712,205,1,1,https://app.newkajabi-staging.com/admin/pipelines/29/edit,174,0,0
+1600199386547,501,https://app.newkajabi-staging.com/login,200,OK,staging admin Thread Group 1-1,text,true,,12845,187,1,1,https://app.newkajabi-staging.com/login,479,0,288

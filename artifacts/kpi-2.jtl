@@ -1,0 +1,368 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1600202043114,1074,Get admin login page,200,OK,staging admin Thread Group 1-1,true,12733,2,2,1071,admins-MBP,827
+1600202043626,614,Get admin login page,200,OK,staging admin Thread Group 1-2,true,12733,3,3,583,admins-MBP,360
+1600202044194,458,Post admin login,200,OK,staging admin Thread Group 1-1,true,4384,3,3,447,admins-MBP,0
+1600202044242,911,Post admin login,200,OK,staging admin Thread Group 1-2,true,4384,4,4,908,admins-MBP,0
+1600202044223,1158,Get admin login page,200,OK,staging admin Thread Group 1-3,true,12733,4,4,1132,admins-MBP,843
+1600202045383,434,Post admin login,200,OK,staging admin Thread Group 1-3,true,4384,5,5,434,admins-MBP,0
+1600202045420,847,Get admin login page,200,OK,staging admin Thread Group 1-5,true,12733,6,6,839,admins-MBP,638
+1600202044823,1505,Get admin login page,200,OK,staging admin Thread Group 1-4,true,12733,6,6,1492,admins-MBP,1277
+1600202046268,398,Post admin login,200,OK,staging admin Thread Group 1-5,true,4384,7,7,398,admins-MBP,0
+1600202046019,775,Get admin login page,200,OK,staging admin Thread Group 1-6,true,12733,7,7,775,admins-MBP,445
+1600202046795,406,Post admin login,200,OK,staging admin Thread Group 1-6,true,4384,7,7,405,admins-MBP,0
+1600202044653,2666,Get Products page,200,OK,staging admin Thread Group 1-1,true,13558,8,8,1716,admins-MBP,1523
+1600202045818,1592,Get Products page,200,OK,staging admin Thread Group 1-3,true,13558,8,8,678,admins-MBP,451
+1600202046329,1102,Post admin login,200,OK,staging admin Thread Group 1-4,true,4384,8,8,1101,admins-MBP,0
+1600202046619,961,Get admin login page,200,OK,staging admin Thread Group 1-7,true,12734,8,8,923,admins-MBP,523
+1600202047581,533,Post admin login,200,OK,staging admin Thread Group 1-7,true,4384,9,9,487,admins-MBP,0
+1600202047219,934,Get admin login page,200,OK,staging admin Thread Group 1-8,true,12733,9,9,920,admins-MBP,618
+1600202048154,437,Post admin login,200,OK,staging admin Thread Group 1-8,true,4384,10,10,407,admins-MBP,0
+1600202047820,918,Get admin login page,200,OK,staging admin Thread Group 1-9,true,12733,10,10,886,admins-MBP,567
+1600202045154,3639,Get Products page,200,OK,staging admin Thread Group 1-2,true,13557,10,10,1684,admins-MBP,1424
+1600202048739,436,Post admin login,200,OK,staging admin Thread Group 1-9,true,4384,11,11,428,admins-MBP,0
+1600202047410,2094,Get Product 8,200,OK,staging admin Thread Group 1-3,true,13557,11,11,212,admins-MBP,0
+1600202048115,1597,Get Products page,200,OK,staging admin Thread Group 1-7,true,13557,12,12,879,admins-MBP,623
+1600202049019,862,Get admin login page,200,OK,staging admin Thread Group 1-11,true,12734,12,12,840,admins-MBP,487
+1600202048794,1128,Get Product 8,200,OK,staging admin Thread Group 1-2,true,13558,12,12,309,admins-MBP,0
+1600202048419,1655,Get admin login page,200,OK,staging admin Thread Group 1-10,true,12734,12,12,1655,admins-MBP,1295
+1600202047201,2915,Get Products page,200,OK,staging admin Thread Group 1-6,true,13557,12,12,1185,admins-MBP,438
+1600202047320,2949,Get Product 8,200,OK,staging admin Thread Group 1-1,true,13558,13,13,289,admins-MBP,0
+1600202049882,457,Post admin login,200,OK,staging admin Thread Group 1-11,true,4384,13,13,449,admins-MBP,0
+1600202048592,1788,Get Products page,200,OK,staging admin Thread Group 1-8,true,13558,13,13,820,admins-MBP,588
+1600202050075,501,Post admin login,200,OK,staging admin Thread Group 1-10,true,4384,13,13,492,admins-MBP,0
+1600202046667,4131,Get Products page,200,OK,staging admin Thread Group 1-5,true,13557,13,13,2143,admins-MBP,1826
+1600202050270,1009,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-1,true,13557,14,14,222,admins-MBP,0
+1600202049505,1862,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-3,true,13557,14,14,260,admins-MBP,0
+1600202050219,1247,Get admin login page,200,OK,staging admin Thread Group 1-13,true,12733,15,15,1247,admins-MBP,473
+1600202049620,1888,Get admin login page,200,OK,staging admin Thread Group 1-12,true,12733,15,15,1852,admins-MBP,1072
+1600202049923,1637,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-2,true,13557,15,15,764,admins-MBP,0
+1600202050117,1640,Get Product 8,200,OK,staging admin Thread Group 1-6,true,13557,15,15,293,admins-MBP,0
+1600202051467,922,Post admin login,200,OK,staging admin Thread Group 1-13,true,4384,16,16,915,admins-MBP,0
+1600202051509,943,Post admin login,200,OK,staging admin Thread Group 1-12,true,4384,16,16,943,admins-MBP,0
+1600202049713,2795,Get Product 8,200,OK,staging admin Thread Group 1-7,true,13558,16,16,246,admins-MBP,0
+1600202050799,1770,Get Product 8,200,OK,staging admin Thread Group 1-5,true,13558,16,16,248,admins-MBP,0
+1600202049176,3481,Get Products page,200,OK,staging admin Thread Group 1-9,true,13558,17,17,777,admins-MBP,459
+1600202051279,1420,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-1,true,13558,17,17,286,admins-MBP,0
+1600202050821,1919,Get admin login page,200,OK,staging admin Thread Group 1-14,true,12733,17,17,1906,admins-MBP,485
+1600202047432,5456,Get Products page,200,OK,staging admin Thread Group 1-4,true,13557,17,17,2329,admins-MBP,2073
+1600202050340,2715,Get Products page,200,OK,staging admin Thread Group 1-11,true,13557,17,17,662,admins-MBP,423
+1600202052620,1046,Get admin login page,200,OK,staging admin Thread Group 1-17,true,12733,18,18,1028,admins-MBP,795
+1600202052020,1729,Get admin login page,200,OK,staging admin Thread Group 1-16,true,12733,18,18,1693,admins-MBP,1428
+1600202052741,1036,Post admin login,200,OK,staging admin Thread Group 1-14,true,4384,18,18,1028,admins-MBP,0
+1600202053667,438,Post admin login,200,OK,staging admin Thread Group 1-17,true,4384,19,19,429,admins-MBP,0
+1600202052509,1886,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-7,true,13557,19,19,895,admins-MBP,0
+1600202050576,3913,Get Products page,200,OK,staging admin Thread Group 1-10,true,13557,20,20,2181,admins-MBP,1840
+1600202053819,1172,Get admin login page,200,OK,staging admin Thread Group 1-19,true,12734,20,20,1149,admins-MBP,747
+1600202051368,3702,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-3,true,13557,21,21,227,admins-MBP,0
+1600202051560,3594,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-2,true,13558,21,21,1367,admins-MBP,0
+1600202052657,2578,Get Product 8,200,OK,staging admin Thread Group 1-9,true,13558,21,21,275,admins-MBP,0
+1600202050381,4873,Get Product 8,200,OK,staging admin Thread Group 1-8,true,13558,21,21,199,admins-MBP,0
+1600202051757,3561,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-6,true,13558,21,21,819,admins-MBP,0
+1600202053219,2166,Get admin login page,200,OK,staging admin Thread Group 1-18,true,12734,21,21,2148,admins-MBP,1628
+1600202053750,1842,Post admin login,200,OK,staging admin Thread Group 1-16,true,4384,21,21,1841,admins-MBP,0
+1600202054992,690,Post admin login,200,OK,staging admin Thread Group 1-19,true,4384,22,22,689,admins-MBP,0
+1600202052570,3224,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-5,true,13558,22,22,276,admins-MBP,0
+1600202051419,4449,Get admin login page,200,OK,staging admin Thread Group 1-15,true,12734,22,22,4432,admins-MBP,1280
+1600202055386,645,Post admin login,200,OK,staging admin Thread Group 1-18,true,4384,22,22,641,admins-MBP,0
+1600202054421,2169,Get admin login page,200,OK,staging admin Thread Group 1-20,true,12733,23,23,2142,admins-MBP,1271
+1600202055019,2010,Get admin login page,200,OK,staging admin Thread Group 1-21,true,12734,24,24,1983,admins-MBP,1573
+1600202054489,2658,Get Product 8,200,OK,staging admin Thread Group 1-10,true,13557,24,24,389,admins-MBP,0
+1600202055869,1336,Post admin login,200,OK,staging admin Thread Group 1-15,true,4384,24,24,1330,admins-MBP,0
+1600202055254,2447,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-8,true,13557,25,25,998,admins-MBP,0
+1600202055236,2979,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-9,true,13557,26,26,516,admins-MBP,0
+1600202057030,1204,Post admin login,200,OK,staging admin Thread Group 1-21,true,4384,26,26,1196,admins-MBP,0
+1600202055071,3271,Get Product 2,200,OK,staging admin Thread Group 1-3,true,13558,26,26,589,admins-MBP,0
+1600202052700,5726,Get Product 2,200,OK,staging admin Thread Group 1-1,true,13557,26,26,845,admins-MBP,0
+1600202056591,1985,Post admin login,200,OK,staging admin Thread Group 1-20,true,4384,26,26,1981,admins-MBP,0
+1600202052889,5986,Get Product 8,200,OK,staging admin Thread Group 1-4,true,13557,27,27,322,admins-MBP,0
+1600202056220,3103,Get admin login page,200,OK,staging admin Thread Group 1-23,true,12733,28,28,3086,admins-MBP,2760
+1600202052390,7238,Get Products page,200,OK,staging admin Thread Group 1-13,true,13557,28,28,3036,admins-MBP,2037
+1600202058620,1610,Get admin login page,200,OK,staging admin Thread Group 1-27,true,12733,29,29,1596,admins-MBP,646
+1600202057148,3130,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-10,true,13557,29,29,291,admins-MBP,0
+1600202055619,4806,Get admin login page,200,OK,staging admin Thread Group 1-22,true,12733,30,30,4775,admins-MBP,1540
+1600202055155,5338,Get Product 2,200,OK,staging admin Thread Group 1-2,true,13557,30,30,812,admins-MBP,0
+1600202059326,1474,Post admin login,200,OK,staging admin Thread Group 1-23,true,4384,30,30,1470,admins-MBP,0
+1600202055318,5489,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-6,true,13557,30,30,1501,admins-MBP,0
+1600202058344,2530,Get pipelines ,200,OK,staging admin Thread Group 1-3,true,13558,30,30,321,admins-MBP,0
+1600202060231,1411,Post admin login,200,OK,staging admin Thread Group 1-27,true,4384,32,32,1411,admins-MBP,0
+1600202059820,2164,Get admin login page,200,OK,staging admin Thread Group 1-29,true,12734,32,32,2132,admins-MBP,1505
+1600202058019,3969,Get admin login page,200,OK,staging admin Thread Group 1-26,true,12734,32,32,3709,admins-MBP,2475
+1600202057419,4627,Get admin login page,200,OK,staging admin Thread Group 1-25,true,12734,32,32,4449,admins-MBP,3959
+1600202054396,8051,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-7,true,13557,33,33,240,admins-MBP,0
+1600202057701,5078,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-8,true,13557,33,33,975,admins-MBP,0
+1600202053778,9095,Get Products page,200,OK,staging admin Thread Group 1-14,true,13557,34,34,926,admins-MBP,620
+1600202053056,10082,Get Product 8,200,OK,staging admin Thread Group 1-11,true,13557,34,34,967,admins-MBP,0
+1600202061990,1574,Post admin login,200,OK,staging admin Thread Group 1-26,true,4384,35,35,1570,admins-MBP,0
+1600202061984,1812,Post admin login,200,OK,staging admin Thread Group 1-29,true,4384,35,35,1804,admins-MBP,0
+1600202059220,4743,Get admin login page,200,OK,staging admin Thread Group 1-28,true,12734,35,35,4725,admins-MBP,1584
+1600202054106,10001,Get Products page,200,OK,staging admin Thread Group 1-17,true,13558,36,36,2810,admins-MBP,2485
+1600202055794,8465,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-5,true,13558,36,36,284,admins-MBP,0
+1600202062220,2299,Get admin login page,200,OK,staging admin Thread Group 1-33,true,12734,36,36,2084,admins-MBP,1512
+1600202058577,5972,Get Products page,200,OK,staging admin Thread Group 1-20,true,13558,36,36,2086,admins-MBP,1756
+1600202062048,2804,Post admin login,200,OK,staging admin Thread Group 1-25,true,4384,37,37,2800,admins-MBP,0
+1600202056820,8203,Get admin login page,200,OK,staging admin Thread Group 1-24,true,12734,37,37,8181,admins-MBP,5362
+1600202058427,6693,Get pipelines ,200,OK,staging admin Thread Group 1-1,true,13558,37,37,926,admins-MBP,0
+1600202055683,9522,Get Products page,200,OK,staging admin Thread Group 1-19,true,13558,37,37,4219,admins-MBP,3893
+1600202060874,4549,Get pipeline 29,200,OK,staging admin Thread Group 1-3,true,13558,38,38,1210,admins-MBP,0
+1600202058217,7294,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-9,true,13558,38,38,363,admins-MBP,0
+1600202052453,13213,Get Products page,200,OK,staging admin Thread Group 1-12,true,13558,38,38,3657,admins-MBP,2823
+1600202061020,4670,Get admin login page,200,OK,staging admin Thread Group 1-31,true,12734,38,38,4515,admins-MBP,3267
+1600202065025,1410,Post admin login,200,OK,staging admin Thread Group 1-24,true,4384,40,40,1409,admins-MBP,0
+1600202062818,3790,Get admin login page,200,OK,staging admin Thread Group 1-34,true,12735,40,40,3764,admins-MBP,1727
+1600202063964,2830,Post admin login,200,OK,staging admin Thread Group 1-28,true,4384,40,40,2830,admins-MBP,0
+1600202064520,2490,Post admin login,200,OK,staging admin Thread Group 1-33,true,4384,40,40,2489,admins-MBP,0
+1600202058877,8235,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-4,true,13559,41,41,959,admins-MBP,0
+1600202055593,11798,Get Products page,200,OK,staging admin Thread Group 1-16,true,13558,41,41,4376,admins-MBP,2626
+1600202065690,2117,Post admin login,200,OK,staging admin Thread Group 1-31,true,4384,42,42,2111,admins-MBP,0
+1600202060420,7625,Get admin login page,200,OK,staging admin Thread Group 1-30,true,12734,42,42,7612,admins-MBP,5484
+1600202063140,5062,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-11,true,13558,42,42,1307,admins-MBP,0
+1600202060495,7802,Get pipelines ,200,OK,staging admin Thread Group 1-2,true,13558,43,43,1297,admins-MBP,0
+1600202064109,4256,Get Product 8,200,OK,staging admin Thread Group 1-17,true,13558,43,43,413,admins-MBP,0
+1600202061620,6850,Get admin login page,200,OK,staging admin Thread Group 1-32,true,12734,43,43,6633,admins-MBP,5922
+1600202062779,5753,Get Product 2,200,OK,staging admin Thread Group 1-8,true,13558,43,43,1213,admins-MBP,0
+1600202059630,8988,Get Product 8,200,OK,staging admin Thread Group 1-13,true,13558,43,43,1122,admins-MBP,0
+1600202066609,2107,Post admin login,200,OK,staging admin Thread Group 1-34,true,4384,43,43,2103,admins-MBP,0
+1600202065218,3775,Get admin login page,200,OK,staging admin Thread Group 1-38,true,12734,44,44,3588,admins-MBP,2102
+1600202060279,8906,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-10,true,13558,44,44,307,admins-MBP,0
+1600202056032,13226,Get Products page,200,OK,staging admin Thread Group 1-18,true,13558,44,44,9274,admins-MBP,2185
+1600202064018,5264,Get admin login page,200,OK,staging admin Thread Group 1-36,true,12734,44,44,5038,admins-MBP,2448
+1600202063421,5890,Get admin login page,200,OK,staging admin Thread Group 1-35,true,12734,44,44,5707,admins-MBP,3388
+1600202062874,6479,Get Product 8,200,OK,staging admin Thread Group 1-14,true,13558,44,44,1267,admins-MBP,0
+1600202065819,3607,Get admin login page,200,OK,staging admin Thread Group 1-39,true,12734,45,45,3594,admins-MBP,1442
+1600202064618,4880,Get admin login page,200,OK,staging admin Thread Group 1-37,true,12734,45,45,4849,admins-MBP,2807
+1600202068994,912,Post admin login,200,OK,staging admin Thread Group 1-38,true,4384,45,45,904,admins-MBP,0
+1600202069426,1146,Post admin login,200,OK,staging admin Thread Group 1-39,true,4384,46,46,1139,admins-MBP,0
+1600202069310,1483,Post admin login,200,OK,staging admin Thread Group 1-35,true,4384,47,47,1475,admins-MBP,0
+1600202068046,3046,Post admin login,200,OK,staging admin Thread Group 1-30,true,4384,47,47,3042,admins-MBP,0
+1600202060427,10860,Post admin login,200,OK,staging admin Thread Group 1-22,true,4384,48,48,10859,admins-MBP,0
+1600202058235,13144,Get Products page,200,OK,staging admin Thread Group 1-21,true,13559,48,48,9325,admins-MBP,4641
+1600202068218,3255,Get admin login page,200,OK,staging admin Thread Group 1-43,true,12735,48,48,3251,admins-MBP,1908
+1600202068470,3136,Post admin login,200,OK,staging admin Thread Group 1-32,true,4384,48,48,3127,admins-MBP,0
+1600202067621,4026,Get admin login page,200,OK,staging admin Thread Group 1-42,true,12735,48,48,4012,admins-MBP,536
+1600202062449,9283,Get Product 2,200,OK,staging admin Thread Group 1-7,true,13559,48,48,1405,admins-MBP,0
+1600202066419,5389,Get admin login page,200,OK,staging admin Thread Group 1-40,true,12735,48,48,5389,admins-MBP,2877
+1600202069498,2451,Post admin login,200,OK,staging admin Thread Group 1-37,true,4384,49,49,2451,admins-MBP,0
+1600202060800,11427,Get Products page,200,OK,staging admin Thread Group 1-23,true,13560,49,49,7134,admins-MBP,5257
+1600202068532,3753,Get pipelines ,200,OK,staging admin Thread Group 1-8,true,13559,49,49,602,admins-MBP,0
+1600202065667,6661,Get Product 8,200,OK,staging admin Thread Group 1-12,true,13559,49,49,1756,admins-MBP,0
+1600202065120,7247,Get pipeline 29,200,OK,staging admin Thread Group 1-1,true,13560,49,49,2755,admins-MBP,0
+1600202069282,3233,Post admin login,200,OK,staging admin Thread Group 1-36,true,4384,50,50,3229,admins-MBP,0
+1600202061643,10897,Get Products page,200,OK,staging admin Thread Group 1-27,true,13559,50,50,5850,admins-MBP,3321
+1600202067018,5564,Get admin login page,200,OK,staging admin Thread Group 1-41,true,12734,50,50,5538,admins-MBP,1866
+1600202060809,11779,Get Product 2,200,OK,staging admin Thread Group 1-6,true,13559,50,50,1201,admins-MBP,0
+1600202070618,2007,Get admin login page,200,OK,staging admin Thread Group 1-47,true,12735,50,50,1840,admins-MBP,537
+1600202071808,1084,Post admin login,200,OK,staging admin Thread Group 1-40,true,4384,50,50,1059,admins-MBP,0
+1600202063796,9277,Get Products page,200,OK,staging admin Thread Group 1-29,true,13558,51,51,5886,admins-MBP,5274
+1600202066436,6728,Get Products page,200,OK,staging admin Thread Group 1-24,true,13558,51,51,3171,admins-MBP,2466
+1600202070019,3159,Get admin login page,200,OK,staging admin Thread Group 1-46,true,12734,51,51,2933,admins-MBP,1377
+1600202065424,7909,Get Products page,200,OK,staging admin Thread Group 1-3,true,13558,51,51,1785,admins-MBP,0
+1600202071473,2628,Post admin login,200,OK,staging admin Thread Group 1-43,true,4384,52,52,2620,admins-MBP,0
+1600202064550,9654,Get Product 8,200,OK,staging admin Thread Group 1-20,true,13559,52,52,1942,admins-MBP,0
+1600202072625,1768,Post admin login,200,OK,staging admin Thread Group 1-47,true,4384,53,53,1760,admins-MBP,0
+1600202057206,17286,Get Products page,200,OK,staging admin Thread Group 1-15,true,13558,53,53,12323,admins-MBP,10219
+1600202068618,6022,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-13,true,13559,53,53,1428,admins-MBP,0
+1600202071218,3565,Get admin login page,200,OK,staging admin Thread Group 1-48,true,12735,53,53,3533,admins-MBP,1234
+1600202072582,2460,Post admin login,200,OK,staging admin Thread Group 1-41,true,4384,54,54,2460,admins-MBP,0
+1600202068201,7071,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-11,true,13559,54,54,2653,admins-MBP,0
+1600202073180,2109,Post admin login,200,OK,staging admin Thread Group 1-46,true,4384,54,54,2102,admins-MBP,0
+1600202071646,3912,Post admin login,200,OK,staging admin Thread Group 1-42,true,4384,55,55,3904,admins-MBP,0
+1600202068818,6850,Get admin login page,200,OK,staging admin Thread Group 1-44,true,12735,55,55,6837,admins-MBP,2736
+1600202073018,2712,Get admin login page,200,OK,staging admin Thread Group 1-51,true,12735,55,55,2699,admins-MBP,1243
+1600202064260,11655,Get Product 2,200,OK,staging admin Thread Group 1-5,true,13558,55,55,649,admins-MBP,0
+1600202067392,8581,Get Product 8,200,OK,staging admin Thread Group 1-16,true,13558,55,55,3766,admins-MBP,0
+1600202069353,6710,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-14,true,13558,56,56,2161,admins-MBP,0
+1600202069417,6968,Get admin login page,200,OK,staging admin Thread Group 1-45,true,12733,56,56,6950,admins-MBP,2664
+1600202072417,4433,Get admin login page,200,OK,staging admin Thread Group 1-50,true,12734,57,57,3562,admins-MBP,1343
+1600202075731,1251,Post admin login,200,OK,staging admin Thread Group 1-51,true,4384,57,57,1250,admins-MBP,0
+1600202065511,11668,Get Product 2,200,OK,staging admin Thread Group 1-9,true,13557,57,57,1765,admins-MBP,0
+1600202076387,1246,Post admin login,200,OK,staging admin Thread Group 1-45,true,4384,58,58,1245,admins-MBP,0
+1600202071818,6042,Get admin login page,200,OK,staging admin Thread Group 1-49,true,12733,59,59,6010,admins-MBP,4345
+1600202073165,5031,Get Product 8,200,OK,staging admin Thread Group 1-24,true,13557,59,59,1887,admins-MBP,0
+1600202069184,9157,Get Product 2,200,OK,staging admin Thread Group 1-10,true,13558,59,59,2054,admins-MBP,0
+1600202064852,13495,Get Products page,200,OK,staging admin Thread Group 1-25,true,13557,59,59,8363,admins-MBP,6033
+1600202074205,4185,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-20,true,13557,59,59,1583,admins-MBP,0
+1600202073619,4836,Get admin login page,200,OK,staging admin Thread Group 1-52,true,12733,60,60,4819,admins-MBP,3183
+1600202072539,6194,Get Product 8,200,OK,staging admin Thread Group 1-27,true,13557,60,60,907,admins-MBP,0
+1600202068715,10082,Get Products page,200,OK,staging admin Thread Group 1-34,true,13558,60,60,6635,admins-MBP,2776
+1600202067011,11906,Get Products page,200,OK,staging admin Thread Group 1-33,true,13557,60,60,4839,admins-MBP,2417
+1600202078456,626,Post admin login,200,OK,staging admin Thread Group 1-52,true,4384,61,61,622,admins-MBP,0
+1600202074784,4426,Post admin login,200,OK,staging admin Thread Group 1-48,true,4384,61,61,4418,admins-MBP,0
+1600202069257,10086,Get Product 8,200,OK,staging admin Thread Group 1-18,true,13557,61,61,2672,admins-MBP,0
+1600202074819,4689,Get admin login page,200,OK,staging admin Thread Group 1-54,true,12734,61,61,4658,admins-MBP,4181
+1600202068365,11207,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-17,true,13557,61,61,7226,admins-MBP,0
+1600202069907,9934,Get Products page,200,OK,staging admin Thread Group 1-38,true,13557,62,62,6190,admins-MBP,5714
+1600202074493,5500,Get Product 8,200,OK,staging admin Thread Group 1-15,true,13558,62,62,1575,admins-MBP,0
+1600202070794,9305,Get Products page,200,OK,staging admin Thread Group 1-35,true,13557,62,62,4347,admins-MBP,2475
+1600202073334,6856,Get Product 8,200,OK,staging admin Thread Group 1-3,true,13558,62,62,2179,admins-MBP,0
+1600202076851,3354,Post admin login,200,OK,staging admin Thread Group 1-50,true,4384,62,62,3350,admins-MBP,0
+1600202077218,3141,Get admin login page,200,OK,staging admin Thread Group 1-58,true,12735,63,63,3109,admins-MBP,2670
+1600202074642,5870,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-13,true,13558,63,63,1129,admins-MBP,0
+1600202072366,8206,Get Products page,200,OK,staging admin Thread Group 1-1,true,13558,63,63,2946,admins-MBP,0
+1600202077819,2884,Get admin login page,200,OK,staging admin Thread Group 1-59,true,12734,63,63,2883,admins-MBP,1307
+1600202070573,10252,Get Products page,200,OK,staging admin Thread Group 1-39,true,13558,64,64,4402,admins-MBP,2501
+1600202077862,3142,Post admin login,200,OK,staging admin Thread Group 1-49,true,4384,64,64,3141,admins-MBP,0
+1600202075670,5460,Post admin login,200,OK,staging admin Thread Group 1-44,true,4384,64,64,5460,admins-MBP,0
+1600202076020,5230,Get admin login page,200,OK,staging admin Thread Group 1-56,true,12734,64,64,5198,admins-MBP,4008
+1600202074103,7253,Get Products page,200,OK,staging admin Thread Group 1-43,true,13558,64,64,3228,admins-MBP,2972
+1600202072588,8851,Get pipelines ,200,OK,staging admin Thread Group 1-6,true,13558,65,65,2845,admins-MBP,0
+1600202072286,9326,Get pipeline 29,200,OK,staging admin Thread Group 1-8,true,13558,65,65,2527,admins-MBP,0
+1600202071606,10458,Get Products page,200,OK,staging admin Thread Group 1-32,true,13558,66,66,4662,admins-MBP,4409
+1600202080359,1821,Post admin login,200,OK,staging admin Thread Group 1-58,true,4384,66,66,1820,admins-MBP,0
+1600202071287,11014,Get Products page,200,OK,staging admin Thread Group 1-22,true,13558,66,66,6949,admins-MBP,4289
+1600202081251,1068,Post admin login,200,OK,staging admin Thread Group 1-56,true,4384,66,66,1067,admins-MBP,0
+1600202071091,11398,Get Products page,200,OK,staging admin Thread Group 1-30,true,13558,66,66,5327,admins-MBP,4343
+1600202072515,10000,Get Products page,200,OK,staging admin Thread Group 1-36,true,13558,66,66,3221,admins-MBP,760
+1600202080703,1960,Post admin login,200,OK,staging admin Thread Group 1-59,true,4384,67,67,1957,admins-MBP,0
+1600202075975,6791,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-16,true,13558,67,67,1732,admins-MBP,0
+1600202080817,2024,Get admin login page,200,OK,staging admin Thread Group 1-64,true,12733,67,67,1989,admins-MBP,1690
+1600202077634,5601,Get Products page,200,OK,staging admin Thread Group 1-45,true,13557,68,68,2930,admins-MBP,1887
+1600202068296,15038,Get pipeline 29,200,OK,staging admin Thread Group 1-2,true,13557,68,68,775,admins-MBP,0
+1600202076618,6813,Get admin login page,200,OK,staging admin Thread Group 1-57,true,12734,68,68,6787,admins-MBP,5806
+1600202074220,9244,Get admin login page,200,OK,staging admin Thread Group 1-53,true,12733,68,68,8657,admins-MBP,844
+1600202082842,654,Post admin login,200,OK,staging admin Thread Group 1-64,true,4384,68,68,651,admins-MBP,0
+1600202078797,4934,Get Product 8,200,OK,staging admin Thread Group 1-34,true,13558,68,68,478,admins-MBP,0
+1600202075560,8208,Get Products page,200,OK,staging admin Thread Group 1-42,true,13557,68,68,3040,admins-MBP,2782
+1600202071950,12100,Get Products page,200,OK,staging admin Thread Group 1-37,true,13557,69,69,3896,admins-MBP,2846
+1600202083432,667,Post admin login,200,OK,staging admin Thread Group 1-57,true,4384,69,69,658,admins-MBP,0
+1600202078390,5917,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-20,true,13557,69,69,1039,admins-MBP,0
+1600202078196,6195,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-24,true,13557,69,69,1116,admins-MBP,0
+1600202078342,6122,Get pipelines ,200,OK,staging admin Thread Group 1-10,true,13557,70,70,267,admins-MBP,0
+1600202076065,8493,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-14,true,13557,70,70,1607,admins-MBP,0
+1600202078918,5749,Get Product 8,200,OK,staging admin Thread Group 1-33,true,13557,70,70,433,admins-MBP,0
+1600202079344,5346,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-18,true,13557,70,70,1308,admins-MBP,0
+1600202083220,1933,Get admin login page,200,OK,staging admin Thread Group 1-68,true,12733,71,71,1902,admins-MBP,1563
+1600202082767,2432,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-16,true,13557,71,71,266,admins-MBP,0
+1600202079572,5720,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-17,true,13558,71,71,302,admins-MBP,0
+1600202079619,5747,Get admin login page,200,OK,staging admin Thread Group 1-62,true,12734,71,71,5542,admins-MBP,5175
+1600202072327,13359,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-12,true,13559,72,72,2344,admins-MBP,0
+1600202085154,728,Post admin login,200,OK,staging admin Thread Group 1-68,true,4384,72,72,728,admins-MBP,0
+1600202075915,10431,Get pipelines ,200,OK,staging admin Thread Group 1-5,true,13557,73,73,3775,admins-MBP,0
+1600202072227,14384,Get Product 8,200,OK,staging admin Thread Group 1-23,true,13557,73,73,2296,admins-MBP,0
+1600202079020,7790,Get admin login page,200,OK,staging admin Thread Group 1-61,true,12733,73,73,7527,admins-MBP,6501
+1600202084419,2570,Get admin login page,200,OK,staging admin Thread Group 1-70,true,12733,74,74,2548,admins-MBP,1557
+1600202078347,8733,Get Product 8,200,OK,staging admin Thread Group 1-25,true,13557,74,74,1038,admins-MBP,0
+1600202082619,4944,Get admin login page,200,OK,staging admin Thread Group 1-67,true,12733,75,75,4570,admins-MBP,1634
+1600202075290,12457,Get Products page,200,OK,staging admin Thread Group 1-46,true,13558,75,75,2773,admins-MBP,2499
+1600202075044,12748,Get Products page,200,OK,staging admin Thread Group 1-41,true,13557,75,75,4191,admins-MBP,2863
+1600202063565,24294,Get Products page,200,OK,staging admin Thread Group 1-26,true,13558,75,75,6401,admins-MBP,5742
+1600202086820,1107,Get admin login page,200,OK,staging admin Thread Group 1-74,true,12734,75,75,1107,admins-MBP,646
+1600202077179,10822,Get pipelines ,200,OK,staging admin Thread Group 1-9,true,13558,75,75,1028,admins-MBP,0
+1600202072892,15223,Get Products page,200,OK,staging admin Thread Group 1-40,true,13557,76,76,5244,admins-MBP,3497
+1600202086811,1321,Post admin login,200,OK,staging admin Thread Group 1-61,true,4384,76,76,1315,admins-MBP,0
+1600202078419,9804,Get admin login page,200,OK,staging admin Thread Group 1-60,true,12734,76,76,9773,admins-MBP,2095
+1600202080513,7792,Get Product 2,200,OK,staging admin Thread Group 1-13,true,13558,76,76,954,admins-MBP,0
+1600202081419,7034,Get admin login page,200,OK,staging admin Thread Group 1-65,true,12734,76,76,7003,admins-MBP,3656
+1600202087563,1166,Post admin login,200,OK,staging admin Thread Group 1-67,true,4384,77,77,1160,admins-MBP,0
+1600202086990,1957,Post admin login,200,OK,staging admin Thread Group 1-70,true,4384,77,77,1957,admins-MBP,0
+1600202083235,5818,Get Product 8,200,OK,staging admin Thread Group 1-45,true,13558,77,77,1572,admins-MBP,0
+1600202080205,9069,Get Products page,200,OK,staging admin Thread Group 1-50,true,13558,78,78,1068,admins-MBP,621
+1600202082019,7328,Get admin login page,200,OK,staging admin Thread Group 1-66,true,12734,78,78,7324,admins-MBP,3667
+1600202088454,2153,Post admin login,200,OK,staging admin Thread Group 1-65,true,4384,80,80,2153,admins-MBP,0
+1600202083769,6942,Get Product 8,200,OK,staging admin Thread Group 1-42,true,13559,80,80,951,admins-MBP,0
+1600202081004,9855,Get Products page,200,OK,staging admin Thread Group 1-49,true,13559,80,80,5214,admins-MBP,4234
+1600202080572,10517,Get Product 8,200,OK,staging admin Thread Group 1-1,true,13559,81,81,584,admins-MBP,0
+1600202066795,24370,Get Products page,200,OK,staging admin Thread Group 1-28,true,13559,81,81,5354,admins-MBP,3434
+1600202080100,11294,Get Product 8,200,OK,staging admin Thread Group 1-35,true,13559,81,81,1156,admins-MBP,0
+1600202081439,10130,Get pipeline 29,200,OK,staging admin Thread Group 1-6,true,13559,81,81,927,admins-MBP,0
+1600202082302,9329,Get Product 8,200,OK,staging admin Thread Group 1-22,true,13559,82,82,323,admins-MBP,0
+1600202088224,3536,Post admin login,200,OK,staging admin Thread Group 1-60,true,4384,82,82,3536,admins-MBP,0
+1600202080825,11111,Get Product 8,200,OK,staging admin Thread Group 1-39,true,13559,82,82,1592,admins-MBP,0
+1600202085019,7063,Get admin login page,200,OK,staging admin Thread Group 1-71,true,12735,82,82,7032,admins-MBP,4547
+1600202080191,12058,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-3,true,13559,83,83,394,admins-MBP,0
+1600202085618,6722,Get admin login page,200,OK,staging admin Thread Group 1-72,true,12735,83,83,6691,admins-MBP,3375
+1600202081131,11290,Get Products page,200,OK,staging admin Thread Group 1-44,true,13559,83,83,6144,admins-MBP,4357
+1600202081356,11223,Get Product 8,200,OK,staging admin Thread Group 1-43,true,13559,83,83,985,admins-MBP,0
+1600202067807,24850,Get Products page,200,OK,staging admin Thread Group 1-31,true,13559,83,83,4235,admins-MBP,1872
+1600202082064,10620,Get Product 8,200,OK,staging admin Thread Group 1-32,true,13559,83,83,984,admins-MBP,0
+1600202084691,8124,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-18,true,13559,83,83,1585,admins-MBP,0
+1600202067113,25783,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-4,true,13559,84,84,4269,admins-MBP,0
+1600202089347,3823,Post admin login,200,OK,staging admin Thread Group 1-66,true,4384,84,84,3822,admins-MBP,0
+1600202079841,13512,Get Product 8,200,OK,staging admin Thread Group 1-38,true,13559,84,84,448,admins-MBP,0
+1600202084050,9389,Get Product 8,200,OK,staging admin Thread Group 1-37,true,13559,85,85,824,admins-MBP,0
+1600202083820,9752,Get admin login page,200,OK,staging admin Thread Group 1-69,true,12735,85,85,9743,admins-MBP,2157
+1600202079210,14441,Get Products page,200,OK,staging admin Thread Group 1-48,true,13559,85,85,4726,admins-MBP,3196
+1600202074395,19406,Get Products page,200,OK,staging admin Thread Group 1-47,true,13559,85,85,4285,admins-MBP,3954
+1600202084559,9318,Get Product 2,200,OK,staging admin Thread Group 1-14,true,13559,84,84,285,admins-MBP,0
+1600202075420,18497,Get admin login page,200,OK,staging admin Thread Group 1-55,true,12735,83,83,18481,admins-MBP,15069
+1600202084667,9296,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-33,true,13559,82,82,1637,admins-MBP,0
+1600202065205,28973,Get Product 8,200,OK,staging admin Thread Group 1-19,true,13559,81,81,1936,admins-MBP,0
+1600202089217,5029,Get admin login page,200,OK,staging admin Thread Group 1-78,true,12735,80,80,4851,admins-MBP,1582
+1600202086346,7995,Get pipeline 29,200,OK,staging admin Thread Group 1-5,true,13559,79,79,334,admins-MBP,0
+1600202085199,9221,Get Product 2,200,OK,staging admin Thread Group 1-16,true,13559,78,78,318,admins-MBP,0
+1600202081612,12994,Get Products page,200,OK,staging admin Thread Group 1-8,true,13560,77,77,5002,admins-MBP,0
+1600202082516,12195,Get Product 8,200,OK,staging admin Thread Group 1-36,true,13559,76,76,4523,admins-MBP,0
+1600202085367,9344,Post admin login,200,OK,staging admin Thread Group 1-62,true,4384,76,76,9321,admins-MBP,0
+1600202088618,6157,Get admin login page,200,OK,staging admin Thread Group 1-77,true,12735,74,74,6139,admins-MBP,2252
+1600202087081,7792,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-25,true,13559,73,73,1257,admins-MBP,0
+1600202090417,4575,Get admin login page,200,OK,staging admin Thread Group 1-80,true,12735,72,72,4364,admins-MBP,1393
+1600202079994,15227,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-15,true,13559,71,71,1081,admins-MBP,0
+1600202092082,3160,Post admin login,200,OK,staging admin Thread Group 1-71,true,4384,70,70,3160,admins-MBP,0
+1600202082664,12764,Get Products page,200,OK,staging admin Thread Group 1-59,true,13559,69,69,5843,admins-MBP,4411
+1600202087418,8052,Get admin login page,200,OK,staging admin Thread Group 1-75,true,12735,68,68,8025,admins-MBP,4747
+1600202078734,16753,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-27,true,13559,67,67,418,admins-MBP,0
+1600202092340,3155,Post admin login,200,OK,staging admin Thread Group 1-72,true,4384,66,66,3147,admins-MBP,0
+1600202088017,7664,Get admin login page,200,OK,staging admin Thread Group 1-76,true,12735,65,65,7500,admins-MBP,3552
+1600202083464,12245,Post admin login,200,OK,staging admin Thread Group 1-53,true,4384,64,64,12245,admins-MBP,0
+1600202084391,11573,Get Product 8 post 33 edit,200,OK,staging admin Thread Group 1-24,true,13559,63,63,989,admins-MBP,0
+1600202091618,4635,Get admin login page,200,OK,staging admin Thread Group 1-82,true,12735,62,62,4470,admins-MBP,1655
+1600202079509,17160,Post admin login,200,OK,staging admin Thread Group 1-54,true,4384,61,61,17152,admins-MBP,0
+1600202073074,23621,Get Product 8,200,OK,staging admin Thread Group 1-29,true,13559,60,60,1818,admins-MBP,0
+1600202082180,14592,Get Products page,200,OK,staging admin Thread Group 1-58,true,13559,59,59,6977,admins-MBP,6078
+1600202083731,13268,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-34,true,13559,58,58,964,admins-MBP,0
+1600202087793,9381,Get Product 8,200,OK,staging admin Thread Group 1-41,true,13559,57,57,3406,admins-MBP,0
+1600202088002,9264,Get pipeline 29,200,OK,staging admin Thread Group 1-9,true,13559,56,56,3965,admins-MBP,0
+1600202087860,9427,Get Product 8,200,OK,staging admin Thread Group 1-26,true,13559,55,55,2888,admins-MBP,0
+1600202089054,8323,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-45,true,13559,54,54,4405,admins-MBP,0
+1600202083496,14199,Get Products page,200,OK,staging admin Thread Group 1-64,true,13559,53,53,9438,admins-MBP,5188
+1600202092819,4885,Get admin login page,200,OK,staging admin Thread Group 1-84,true,12735,52,52,4688,admins-MBP,1913
+1600202092220,5550,Get admin login page,200,OK,staging admin Thread Group 1-83,true,12735,51,51,5537,admins-MBP,4156
+1600202093573,4303,Post admin login,200,OK,staging admin Thread Group 1-69,true,4384,50,50,4303,admins-MBP,0
+1600202087747,10241,Get Product 8,200,OK,staging admin Thread Group 1-46,true,13558,49,49,3143,admins-MBP,0
+1600202082319,15720,Get Products page,200,OK,staging admin Thread Group 1-56,true,13558,48,48,11069,admins-MBP,1861
+1600202083336,14746,Get Products page,200,OK,staging admin Thread Group 1-2,true,13558,47,47,3773,admins-MBP,0
+1600202088948,9152,Get Products page,200,OK,staging admin Thread Group 1-70,true,13559,46,46,6010,admins-MBP,3230
+1600202085293,12850,Get Product 2,200,OK,staging admin Thread Group 1-17,true,13558,45,45,323,admins-MBP,0
+1600202091394,6853,Get Product 8 catagory 25 edit,200,OK,staging admin Thread Group 1-35,true,13557,44,44,3061,admins-MBP,0
+1600202082489,15917,Get Product 8,200,OK,staging admin Thread Group 1-30,true,13557,43,43,1763,admins-MBP,0
+1600202075273,23139,Get Product 2,200,OK,staging admin Thread Group 1-11,true,13557,42,42,16857,admins-MBP,0
+1600202087927,10813,Post admin login,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-74,false,3692,41,41,0,admins-MBP,0
+1600202088730,10011,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-67,false,3692,41,41,0,admins-MBP,2298
+1600202076983,21759,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-51,false,4130,41,41,8312,admins-MBP,7947
+1600202084464,14280,Get pipeline 29,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-10,false,4130,41,41,7356,admins-MBP,0
+1600202092249,6496,Get Product 8 post 33 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-3,false,4130,41,41,3609,admins-MBP,0
+1600202091570,7176,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-6,false,5563,41,41,3425,admins-MBP,0
+1600202085686,13059,Get Product 8 post 33 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-12,false,3692,41,41,0,admins-MBP,0
+1600202071379,27367,Get Product 8,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-21,false,5663,41,41,3073,admins-MBP,0
+1600202093171,5577,Get Products page,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,staging admin Thread Group 1-66,false,3538,41,41,4405,admins-MBP,2469
+1600202092816,5931,Get Product 2,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-18,false,5563,41,41,4476,admins-MBP,0
+1600202085883,12865,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-68,false,5563,41,41,8104,admins-MBP,3243
+1600202088116,10631,Get Product 8,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-40,false,5563,41,41,971,admins-MBP,0
+1600202092421,6328,Get Product 8,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,staging admin Thread Group 1-44,false,3538,41,41,5487,admins-MBP,0
+1600202093355,5394,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-38,false,5563,41,41,2420,admins-MBP,0
+1600202091937,6813,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-39,false,4895,41,41,2953,admins-MBP,0
+1600202090607,8144,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-65,false,5563,40,40,5751,admins-MBP,2838
+1600202088306,10445,Get pipelines ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-13,false,4130,40,40,2655,admins-MBP,0
+1600202084099,14652,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-57,false,3692,40,40,0,admins-MBP,7010
+1600202090712,8041,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-42,false,4895,40,40,4194,admins-MBP,0
+1600202092684,6070,Get Product 8 catagory 25 edit,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,staging admin Thread Group 1-32,false,3538,40,40,3535,admins-MBP,0
+1600202092658,6096,Get Product 8,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-31,false,4895,39,39,2693,admins-MBP,0
+1600202089274,9481,Get Product 8,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-50,false,4895,39,39,3418,admins-MBP,0
+1600202092579,6177,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-43,false,5563,39,39,3188,admins-MBP,0
+1600202093440,5317,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-37,false,4895,39,39,2413,admins-MBP,0
+1600202080215,18542,Get admin login page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-63,false,3692,39,39,0,admins-MBP,18289
+1600202091167,7591,Get Product 8,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,staging admin Thread Group 1-28,false,3538,38,38,5261,admins-MBP,0
+1600202079083,19674,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-52,false,5663,38,38,3887,admins-MBP,3611
+1600202071731,27025,Get pipelines ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-7,false,5563,38,38,889,admins-MBP,0
+1600202091089,7670,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-1,false,4895,37,37,3721,admins-MBP,0
+1600202092898,5861,Get Product 2,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-4,false,5563,37,37,2709,admins-MBP,0
+1600202084307,14453,Get Product 2,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-20,false,4895,37,37,11687,admins-MBP,0
+1600202091018,7742,Get admin login page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-81,false,3692,37,37,0,admins-MBP,2166
+1600202091632,7129,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-22,false,5563,36,36,4506,admins-MBP,0
+1600202093652,5109,Get Product 8,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-48,false,5563,36,36,3151,admins-MBP,0
+1600202086611,12149,Get Product 8 catagory 25 edit,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-23,false,5563,36,36,4672,admins-MBP,0
+1600202091761,7001,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-60,false,5563,36,36,5590,admins-MBP,3466
+1600202088133,10629,Get Products page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-61,false,5563,36,36,7559,admins-MBP,4226
+1600202089819,8942,Get admin login page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-79,false,3692,35,35,0,admins-MBP,3632
+1600202093419,5344,Get admin login page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-85,false,4360,35,35,0,admins-MBP,5344
+1600202086218,12544,Get admin login page,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-73,false,3692,35,35,0,admins-MBP,3765
+1600202090860,7904,Get Product 8,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,staging admin Thread Group 1-49,false,4895,34,34,3358,admins-MBP,0

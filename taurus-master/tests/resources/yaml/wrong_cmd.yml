@@ -1,0 +1,15 @@
+execution:
+  iteration: 1
+  scenario:
+    requests:
+    - http://blazedemo.com
+
+services:
+- module: shellexec
+  startup:
+  - wrong_cmd
+
+modules:
+  shellexec:
+    class: bzt.modules.shellexec.ShellExecutor
+

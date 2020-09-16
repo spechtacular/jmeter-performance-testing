@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Heroku readonly staging Postgresql Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments">random test queries that dont rely on application data</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="Staging readonly JDBC Connection Configuration" enabled="true">
+        <stringProp name="dataSource">herokutest2</stringProp>
+        <stringProp name="poolMax">0</stringProp>
+        <stringProp name="timeout">10000</stringProp>
+        <stringProp name="trimInterval">60000</stringProp>
+        <boolProp name="autocommit">true</boolProp>
+        <stringProp name="transactionIsolation">DEFAULT</stringProp>
+        <boolProp name="preinit">false</boolProp>
+        <stringProp name="initQuery">select 1;</stringProp>
+        <boolProp name="keepAlive">true</boolProp>
+        <stringProp name="connectionAge">5000</stringProp>
+        <stringProp name="checkQuery">select 1</stringProp>
+        <stringProp name="dbUrl">jdbc:postgresql://ec2-34-192-231-178.compute-1.amazonaws.com:5432/d3m1d66l1kigms</stringProp>
+        <stringProp name="driver">org.postgresql.Driver</stringProp>
+        <stringProp name="username">readonlyuser</stringProp>
+        <stringProp name="password">p65f4d01b9b0824b30cf6621ecc264813d72fd9797a79726a58ac1c519a447053</stringProp>
+        <stringProp name="connectionProperties">ssl=false&amp;sslmode=verify-ca&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</stringProp>
+      </JDBCDataSource>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">2</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="true"/>
+        <hashTree>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="show long running queries, more than 1 minutes" enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT
+  pid,
+  now() - pg_stat_activity.query_start AS duration,
+  query,
+  state
+FROM pg_stat_activity
+WHERE (now() - pg_stat_activity.query_start) &gt; interval &apos;1 minutes&apos;;</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Check the size (as in disk space) of all databases: " enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT d.datname AS Name, pg_catalog.pg_get_userbyid(d.datdba) AS Owner,
+  CASE WHEN pg_catalog.has_database_privilege(d.datname, &apos;CONNECT&apos;)
+    THEN pg_catalog.pg_size_pretty(pg_catalog.pg_database_size(d.datname)) 
+    ELSE &apos;No Access&apos; 
+  END AS SIZE 
+FROM pg_catalog.pg_database d 
+ORDER BY 
+  CASE WHEN pg_catalog.has_database_privilege(d.datname, &apos;CONNECT&apos;) 
+    THEN pg_catalog.pg_database_size(d.datname)
+    ELSE NULL 
+  END;</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Check the size (as in disk space) of each table:" enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT nspname || &apos;.&apos; || relname AS &quot;relation&quot;,
+   pg_size_pretty(pg_total_relation_size(C.oid)) AS &quot;total_size&quot;
+ FROM pg_class C
+ LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+ WHERE nspname NOT IN (&apos;pg_catalog&apos;, &apos;information_schema&apos;)
+   AND C.relkind &lt;&gt; &apos;i&apos;
+   AND nspname !~ &apos;^pg_toast&apos;
+ ORDER BY pg_total_relation_size(C.oid) DESC;</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Select Check the size (as in disk space) of each table:" enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT nspname || &apos;.&apos; || relname AS &quot;relation&quot;,
+   pg_size_pretty(pg_total_relation_size(C.oid)) AS &quot;total_size&quot;
+ FROM pg_class C
+ LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+ WHERE nspname NOT IN (&apos;pg_catalog&apos;, &apos;information_schema&apos;)
+   AND C.relkind &lt;&gt; &apos;i&apos;
+   AND nspname !~ &apos;^pg_toast&apos;
+ ORDER BY pg_total_relation_size(C.oid) DESC;</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Select cache hit rates (should not be less than 0.99)" enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT sum(heap_blks_read) as heap_read, sum(heap_blks_hit)  as heap_hit, (sum(heap_blks_hit) - sum(heap_blks_read)) / sum(heap_blks_hit) as ratio
+FROM pg_statio_user_tables;
+</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Select largest tables by disk usage" enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT nspname || &apos;.&apos; || relname AS &quot;relation&quot;,
+    pg_size_pretty(pg_total_relation_size(C.oid)) AS &quot;total_size&quot;
+  FROM pg_class C
+  LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+  WHERE nspname NOT IN (&apos;pg_catalog&apos;, &apos;information_schema&apos;)
+    AND C.relkind &lt;&gt; &apos;i&apos;
+    AND nspname !~ &apos;^pg_toast&apos;
+  ORDER BY pg_total_relation_size(C.oid) DESC
+  LIMIT 20;</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Select all active connections" enabled="true">
+            <stringProp name="dataSource">herokutest2</stringProp>
+            <stringProp name="queryType">Select Statement</stringProp>
+            <stringProp name="query">SELECT * FROM pg_stat_activity WHERE state = &apos;active&apos;;
+</stringProp>
+            <stringProp name="queryArguments"></stringProp>
+            <stringProp name="queryArgumentsTypes"></stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="resultVariable"></stringProp>
+            <stringProp name="queryTimeout"></stringProp>
+            <stringProp name="resultSetMaxRows"></stringProp>
+            <stringProp name="resultSetHandler">Store as String</stringProp>
+          </JDBCSampler>
+          <hashTree/>
+        </hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Simple Controller" enabled="true"/>
+        <hashTree/>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

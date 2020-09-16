@@ -1,0 +1,14 @@
+---
+execution:
+- concurrency: 100
+  hold-for: 5m
+  ramp-up: 1m
+  scenario: jmx_sample
+reporting:
+- module: status
+scenarios:
+  jmx_sample:
+    script: test-cases/Kajabi-staging-admin.jmx
+settings:
+  artifacts-dir: ./artifacts
+

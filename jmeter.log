@@ -1,0 +1,135 @@
+2020-09-16 16:02:27,918 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-09-16 16:02:27,944 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/user.properties
+2020-09-16 16:02:27,945 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.3/libexec/bin/system.properties
+2020-09-16 16:02:27,946 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-09-16 16:02:27,946 INFO o.a.j.JMeter: Version 5.3
+2020-09-16 16:02:27,946 INFO o.a.j.JMeter: java.version=14.0.2
+2020-09-16 16:02:27,946 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-09-16 16:02:27,946 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-09-16 16:02:27,946 INFO o.a.j.JMeter: os.arch=x86_64
+2020-09-16 16:02:27,947 INFO o.a.j.JMeter: os.version=10.15.6
+2020-09-16 16:02:27,947 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-09-16 16:02:27,947 INFO o.a.j.JMeter: java.awt.headless=null
+2020-09-16 16:02:27,947 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-09-16 16:02:27,947 INFO o.a.j.JMeter: Available Processors =12
+2020-09-16 16:02:27,955 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-09-16 16:02:27,955 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-09-16 16:02:27,956 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.3/libexec
+2020-09-16 16:02:27,956 INFO o.a.j.JMeter: user.dir  =/Users/theodorespecht/kajabi-jmeter
+2020-09-16 16:02:27,956 INFO o.a.j.JMeter: PWD       =/Users/theodorespecht/kajabi-jmeter
+2020-09-16 16:02:27,961 INFO o.a.j.JMeter: IP: 192.168.1.156 Name: admins-MBP FullName: admins-mbp
+2020-09-16 16:02:29,879 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.SolarizedDarkTheme
+2020-09-16 16:02:31,060 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-09-16 16:02:32,018 INFO o.j.r.JARSourceHTTP: Found cached repo
+2020-09-16 16:02:32,155 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.4, jpgc-redis=0.3, jmeter-core=5.3, jmeter-ftp=5.3, jmeter-http=5.3, jmeter-jdbc=5.3, jmeter-jms=5.3, jmeter-junit=5.3, jmeter-java=5.3, jmeter-ldap=5.3, jmeter-mail=5.3, jmeter-mongodb=5.3, jmeter-native=5.3, jmeter-tcp=5.3, jmeter-components=5.3]
+2020-09-16 16:02:49,373 INFO o.a.j.s.FileServer: Default base='/Users/theodorespecht/kajabi-jmeter'
+2020-09-16 16:02:49,379 INFO o.a.j.g.a.Load: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/herokuJDBCConnectionConfiguration.jmx
+2020-09-16 16:02:49,379 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:02:49,484 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-09-16 16:02:49,492 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-09-16 16:02:49,493 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-09-16 16:02:49,494 INFO o.a.j.s.SaveService: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/herokuJDBCConnectionConfiguration.jmx
+2020-09-16 16:02:49,712 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-09-16 16:02:49,713 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-09-16 16:02:49,713 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-09-16 16:02:49,713 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-09-16 16:02:49,847 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-16 16:02:49,933 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:06:17,535 INFO o.a.j.g.a.Load: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/Staging readonlyJDBCConnectionConfiguration.jmx
+2020-09-16 16:06:17,535 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:06:17,535 INFO o.a.j.s.SaveService: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/Staging readonlyJDBCConnectionConfiguration.jmx
+2020-09-16 16:06:17,587 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-16 16:06:17,623 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:07:21,836 INFO o.a.j.g.a.Load: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/Kajabi-staging-admin.jmx
+2020-09-16 16:07:21,836 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:07:21,836 INFO o.a.j.s.SaveService: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/Kajabi-staging-admin.jmx
+2020-09-16 16:07:21,854 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-09-16 16:07:21,856 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-16 16:07:21,856 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-16 16:07:21,856 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-16 16:07:21,856 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-16 16:07:21,856 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-09-16 16:07:21,856 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-09-16 16:07:21,953 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-16 16:07:21,983 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:07:37,163 INFO o.a.j.g.a.Load: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/herokuJDBCConnectionConfiguration.jmx
+2020-09-16 16:07:37,163 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:07:37,163 INFO o.a.j.s.SaveService: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/herokuJDBCConnectionConfiguration.jmx
+2020-09-16 16:07:37,205 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-16 16:07:37,238 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:10:04,863 INFO o.a.j.g.a.Load: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/Staging readonlyJDBCConnectionConfiguration.jmx
+2020-09-16 16:10:04,864 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:10:04,864 INFO o.a.j.s.SaveService: Loading file: /Users/theodorespecht/kajabi-jmeter/test-cases/Staging readonlyJDBCConnectionConfiguration.jmx
+2020-09-16 16:10:04,902 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-09-16 16:10:04,935 INFO o.a.j.s.FileServer: Set new base='/Users/theodorespecht/kajabi-jmeter/test-cases'
+2020-09-16 16:11:34,133 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-16 16:11:34,134 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-16 16:11:34,134 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-16 16:11:34,135 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-09-16 16:11:34,135 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-09-16 16:11:34,299 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-16 16:11:34,342 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-09-16 16:11:34,342 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
+2020-09-16 16:11:34,342 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-16 16:11:34,342 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2020-09-16 16:11:34,345 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-16 16:11:34,346 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-16 16:11:34,346 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-09-16 16:11:34,848 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-09-16 16:11:38,743 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-09-16 16:11:38,743 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-09-16 16:11:39,106 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-09-16 16:11:39,106 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-09-16 16:11:39,106 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-16 16:11:39,109 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-09-16 16:11:54,450 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-16 16:11:54,450 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-16 16:11:54,452 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-16 16:11:54,495 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-09-16 16:11:54,495 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
+2020-09-16 16:11:54,495 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-16 16:11:54,495 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2020-09-16 16:11:54,496 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-16 16:11:54,496 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-16 16:11:54,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-09-16 16:11:55,001 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-09-16 16:11:58,753 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-09-16 16:11:58,754 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-09-16 16:11:59,209 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-09-16 16:11:59,209 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-09-16 16:11:59,209 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-16 16:11:59,211 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-09-16 16:12:45,900 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-16 16:12:45,900 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-16 16:12:45,901 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-16 16:12:45,952 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-09-16 16:12:45,952 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
+2020-09-16 16:12:45,952 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-16 16:12:45,952 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2020-09-16 16:12:45,953 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-16 16:12:45,953 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-16 16:12:45,953 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-09-16 16:12:46,454 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-09-16 16:12:49,278 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-09-16 16:12:49,278 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-09-16 16:12:49,781 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-09-16 16:12:49,781 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-09-16 16:12:49,781 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-16 16:12:49,782 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-09-16 16:12:53,355 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-16 16:12:53,355 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-16 16:12:53,356 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-09-16 16:12:53,401 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-09-16 16:12:53,401 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
+2020-09-16 16:12:53,401 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-16 16:12:53,401 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2020-09-16 16:12:53,402 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-16 16:12:53,402 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-16 16:12:53,402 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-09-16 16:12:53,903 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-09-16 16:12:56,764 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-09-16 16:12:56,765 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-09-16 16:12:57,302 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-09-16 16:12:57,302 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-09-16 16:12:57,303 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-16 16:12:57,305 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
