@@ -1,7 +1,0 @@
-Created the tree successfully using /Users/theodorespecht/kajabi-jmeter/test-cases/modified_Kajabi-staging-admin.jmx
-Starting standalone test @ Tue Sep 15 12:41:56 PDT 2020 (1600198916753)
-Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4446
-Command: Shutdown received from /127.0.0.1
-Command: StopTestNow received from /127.0.0.1
-Tidying up ...    @ Tue Sep 15 12:44:26 PDT 2020 (1600199066134)
-... end of run

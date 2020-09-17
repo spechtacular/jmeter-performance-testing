@@ -9,7 +9,8 @@ image/data/
 image/cache/
 system/cache/
 system/logs/
-
+*.log
+artifacts/*
 system/storage/
 
 # vQmod log files
